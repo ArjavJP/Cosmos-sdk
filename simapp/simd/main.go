@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/server"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/simapp/simd/cmd"
+	"https://github.com/ArjavJP/Cosmos-sdk/server"
+	svrcmd "https://github.com/ArjavJP/Cosmos-sdk/server/cmd"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp/simd/cmd"
 )
 
 func main() {

@@ -20,14 +20,14 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/server"
+	"https://github.com/ArjavJP/Cosmos-sdk/server/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil"
 )
 
 func TestExportCmd_ConsensusParams(t *testing.T) {

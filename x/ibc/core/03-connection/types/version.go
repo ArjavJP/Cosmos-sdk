@@ -3,8 +3,8 @@ package types
 import (
 	"strings"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var (

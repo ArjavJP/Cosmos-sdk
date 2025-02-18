@@ -5,13 +5,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	clientrest "github.com/cosmos/cosmos-sdk/client/rest"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govrest "github.com/cosmos/cosmos-sdk/x/gov/client/rest"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	clientrest "https://github.com/ArjavJP/Cosmos-sdk/client/rest"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	govrest "https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/rest"
+	govtypes "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 func RegisterHandlers(clientCtx client.Context, rtr *mux.Router) {

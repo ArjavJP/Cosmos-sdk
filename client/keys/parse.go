@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	yaml "gopkg.in/yaml.v2"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/bech32"
 )
 
 func bech32Prefixes(config *sdk.Config) []string {

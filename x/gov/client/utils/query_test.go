@@ -9,13 +9,13 @@ import (
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 type TxSearchMock struct {

@@ -6,12 +6,12 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
 
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
 )
 
 // BeginBlock will check if there is a scheduled plan and if it is ready to be executed.

@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 // InitGenesis sets distribution information for genesis

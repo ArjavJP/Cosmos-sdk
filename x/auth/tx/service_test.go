@@ -7,21 +7,21 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	clienttx "https://github.com/ArjavJP/Cosmos-sdk/client/tx"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	authtx "https://github.com/ArjavJP/Cosmos-sdk/x/auth/tx"
+	bankcli "https://github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
+	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 type IntegrationTestSuite struct {
@@ -220,8 +220,8 @@ func (s IntegrationTestSuite) TestGetTxEvents_GRPC() {
 				s.Require().Equal("foobar", grpcRes.Txs[0].Body.Memo)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8680
+				// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8681
 				s.Require().NotEmpty(grpcRes.TxResponses[0].Timestamp)
 				s.Require().NotEmpty(grpcRes.TxResponses[0].RawLog)
 			}
@@ -369,8 +369,8 @@ func (s IntegrationTestSuite) TestGetTx_GRPCGateway() {
 				s.Require().NotZero(result.TxResponse.Height)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8680
+				// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8681
 				s.Require().NotEmpty(result.TxResponse.Timestamp)
 				s.Require().NotEmpty(result.TxResponse.RawLog)
 			}

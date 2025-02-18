@@ -1,9 +1,9 @@
 package signing
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 )
 
 // SigVerifiableTx defines a transaction interface for all signature verification

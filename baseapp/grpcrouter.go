@@ -10,10 +10,10 @@ import (
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/grpc/encoding/proto"
 
-	"github.com/cosmos/cosmos-sdk/client/grpc/reflection"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/grpc/reflection"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 var protoCodec = encoding.GetCodec(proto.Name)

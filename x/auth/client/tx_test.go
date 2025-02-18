@@ -7,17 +7,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 var (

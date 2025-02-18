@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // ParamChanges defines the parameters that can be modified by param change proposals

@@ -3,9 +3,9 @@ package server
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // GenerateCoinKey returns the address of a public key, along with the secret

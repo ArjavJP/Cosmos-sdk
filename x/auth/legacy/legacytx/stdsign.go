@@ -3,13 +3,13 @@ package legacytx
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 )
 
 // StdSignDoc is replay-prevention structure.

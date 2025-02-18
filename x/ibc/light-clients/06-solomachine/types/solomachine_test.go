@@ -6,16 +6,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	"github.com/cosmos/cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
 )
 
 type SoloMachineTestSuite struct {

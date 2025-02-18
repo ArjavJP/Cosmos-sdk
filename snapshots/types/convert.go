@@ -4,7 +4,7 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // Converts an ABCI snapshot to a snapshot. Mainly to decode the SDK metadata.

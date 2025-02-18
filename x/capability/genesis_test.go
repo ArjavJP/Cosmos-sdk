@@ -5,13 +5,13 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/capability"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 func (suite *CapabilityTestSuite) TestGenesis() {

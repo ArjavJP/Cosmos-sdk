@@ -3,7 +3,7 @@ package snapshots
 import (
 	"io"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // ChunkWriter reads an input stream, splits it into fixed-size chunks, and writes them to a

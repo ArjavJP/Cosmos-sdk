@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v036"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v036"
-	v040gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v040"
-	v036params "github.com/cosmos/cosmos-sdk/x/params/legacy/v036"
-	v038upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/legacy/v038"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
+	v040gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v040"
+	v036params "https://github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
+	v038upgrade "https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/legacy/v038"
 )
 
 func TestMigrate(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 func TestPrepareConfigForTxCreateValidator(t *testing.T) {

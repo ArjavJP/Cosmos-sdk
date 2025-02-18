@@ -15,10 +15,10 @@ import (
 
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 const (

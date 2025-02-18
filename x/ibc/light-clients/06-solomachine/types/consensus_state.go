@@ -3,10 +3,10 @@ package types
 import (
 	"strings"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var _ exported.ConsensusState = &ConsensusState{}

@@ -5,14 +5,14 @@ import (
 
 	ics23 "github.com/confio/ics23/go"
 
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	"github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
-	ibcmock "github.com/cosmos/cosmos-sdk/x/ibc/testing/mock"
+	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
+	ibcmock "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing/mock"
 )
 
 const (

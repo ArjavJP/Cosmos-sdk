@@ -9,12 +9,12 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/server"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
+	genutilcli "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/client/cli"
 )
 
 func ExecInitCmd(testMbm module.BasicManager, home string, cdc codec.JSONMarshaler) error {

@@ -1,15 +1,15 @@
 package v039
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	v038auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v038"
-	v039auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v039"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v036"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v036"
-	v036params "github.com/cosmos/cosmos-sdk/x/params/legacy/v036"
-	v038upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/legacy/v038"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	v038auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v038"
+	v039auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v039"
+	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
+	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
+	v036params "https://github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
+	v038upgrade "https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/legacy/v038"
 )
 
 // Migrate migrates exported state from v0.38 to a v0.39 genesis state.

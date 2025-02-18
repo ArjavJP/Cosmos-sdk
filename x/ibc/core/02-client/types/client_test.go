@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
 )
 
 func (suite *TypesTestSuite) TestMarshalConsensusStateWithHeight() {

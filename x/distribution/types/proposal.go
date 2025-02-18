@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	govtypes "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var (

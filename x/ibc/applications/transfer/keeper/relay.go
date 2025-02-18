@@ -6,14 +6,14 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	coretypes "github.com/cosmos/cosmos-sdk/x/ibc/core/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	coretypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/types"
 )
 
 // SendTransfer handles transfer sending logic. There are 2 possible cases:

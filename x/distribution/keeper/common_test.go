@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 var (

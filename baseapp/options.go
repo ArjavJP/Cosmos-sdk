@@ -6,10 +6,10 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
+	"https://github.com/ArjavJP/Cosmos-sdk/store"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // File for storing in-package BaseApp optional functions,

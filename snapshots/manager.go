@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots/types"
 )
 
 func TestManager_List(t *testing.T) {

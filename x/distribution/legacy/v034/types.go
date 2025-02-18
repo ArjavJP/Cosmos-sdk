@@ -2,7 +2,7 @@
 package v034
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // ----------------------------------------------------------------------------

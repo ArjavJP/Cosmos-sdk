@@ -6,8 +6,8 @@ package tmservice
 import (
 	context "context"
 	fmt "fmt"
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
+	types "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	query "https://github.com/ArjavJP/Cosmos-sdk/types/query"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"

@@ -1,8 +1,8 @@
 package client
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Account defines a read-only version of the auth module's AccountI.

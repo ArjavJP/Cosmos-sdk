@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	types "github.com/cosmos/cosmos-sdk/types"
+	types "https://github.com/ArjavJP/Cosmos-sdk/types"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

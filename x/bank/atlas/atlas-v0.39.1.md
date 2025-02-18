@@ -10,7 +10,7 @@ with particular kinds of accounts.
 
    ```go
    import (
-       "github.com/cosmos/cosmos-sdk/x/bank"
+       "https://github.com/ArjavJP/Cosmos-sdk/x/bank"
    )
    ```
 

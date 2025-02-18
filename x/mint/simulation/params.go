@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/mint/types"
+	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 )
 
 const (

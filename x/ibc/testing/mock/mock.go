@@ -3,7 +3,7 @@ package mock
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
@@ -12,14 +12,14 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	capabilitykeeper "https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 const (

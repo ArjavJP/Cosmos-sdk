@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/version"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/client/utils"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 // GetCmdQueryConnections defines the command to query all the connection ends

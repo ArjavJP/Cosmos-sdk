@@ -13,15 +13,15 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	testnet "github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/cli"
-	distrtestutil "github.com/cosmos/cosmos-sdk/x/distribution/client/testutil"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	testnet "https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/cli"
+	distrtestutil "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/testutil"
+	minttypes "https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 )
 
 type IntegrationTestSuite struct {

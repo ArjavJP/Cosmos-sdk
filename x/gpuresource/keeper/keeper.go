@@ -1,7 +1,7 @@
 package keeper
 
 import (
-    sdk "github.com/cosmos/cosmos-sdk/types"
+    sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
     "my-chain/x/gpuresource/types"
     "fmt"
 )

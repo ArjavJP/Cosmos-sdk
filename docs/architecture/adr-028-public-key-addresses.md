@@ -15,7 +15,7 @@ accounts using string prefixes.
 
 ## Context
 
-Issue [\#3685](https://github.com/cosmos/cosmos-sdk/issues/3685) identified that public key
+Issue [\#3685](https://https://github.com/ArjavJP/Cosmos-sdk/issues/3685) identified that public key
 address spaces are currently overlapping. One initial proposal was extending the address length and
 adding prefixes for different types of addresses. 
 
@@ -36,7 +36,7 @@ And explained how this approach should be sufficiently collision resistant:
 
 > I would like to hear an argument if the 20 bytes space is an actual issue for security, as I would be happy to increase my address sizes in weave. I just figured cosmos and ethereum and bitcoin all use 20 bytes, it should be good enough. And the arguments above which made me feel it was secure. But I have not done a deeper analysis.
 
-In discussions in [\#5694](https://github.com/cosmos/cosmos-sdk/issues/5694), we agreed to go with an
+In discussions in [\#5694](https://https://github.com/ArjavJP/Cosmos-sdk/issues/5694), we agreed to go with an
 approach similar to this where essentially we take the first 20 bytes of the `sha256` hash of
 the key type concatenated with the key bytes, summarized as `Sha256(KeyTypePrefix || Keybytes)[:20]`.
 
@@ -66,7 +66,7 @@ We have three types of accounts we would like to create addresses for in the fut
 which are managed internally by modules
 
 To address all of these use cases we propose the following basic `AddressHash` function,
-based on the discussions in [\#5694](https://github.com/cosmos/cosmos-sdk/issues/5694):
+based on the discussions in [\#5694](https://https://github.com/ArjavJP/Cosmos-sdk/issues/5694):
 
 ```go
 func AddressHash(prefix string, contents []byte) []byte {

@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	testdata "github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	testdata "https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 type eventsTestSuite struct {

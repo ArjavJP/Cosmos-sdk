@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 )

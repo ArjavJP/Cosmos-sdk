@@ -3,15 +3,15 @@ package vesting
 import (
 	"context"
 
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 
 	"github.com/armon/go-metrics"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
 )
 
 type msgServer struct {

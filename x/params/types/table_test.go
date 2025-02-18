@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/x/params/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
 )
 
 func TestKeyTable(t *testing.T) {

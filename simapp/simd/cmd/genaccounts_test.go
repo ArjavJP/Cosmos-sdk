@@ -9,15 +9,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simcmd "github.com/cosmos/cosmos-sdk/simapp/simd/cmd"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/server"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	simcmd "https://github.com/ArjavJP/Cosmos-sdk/simapp/simd/cmd"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil"
+	genutiltest "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/client/testutil"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

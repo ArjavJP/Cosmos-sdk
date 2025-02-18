@@ -1,6 +1,6 @@
 package v039
 
-import sdk "github.com/cosmos/cosmos-sdk/types"
+import sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 
 const (
 	ModuleName = "crisis"

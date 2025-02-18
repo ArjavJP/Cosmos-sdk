@@ -8,17 +8,17 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"https://github.com/ArjavJP/Cosmos-sdk/baseapp"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/staking"
 )
 
 var (

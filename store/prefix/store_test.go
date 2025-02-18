@@ -9,11 +9,11 @@ import (
 
 	tiavl "github.com/cosmos/iavl"
 
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/dbadapter"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/gaskv"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/iavl"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // copied from iavl/store_test.go

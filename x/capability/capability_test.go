@@ -7,14 +7,14 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/capability"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
+	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
 )
 
 type CapabilityTestSuite struct {
@@ -42,7 +42,7 @@ func (suite *CapabilityTestSuite) SetupTest() {
 	suite.module = capability.NewAppModule(cdc, *keeper)
 }
 
-// The following test case mocks a specific bug discovered in https://github.com/cosmos/cosmos-sdk/issues/9800
+// The following test case mocks a specific bug discovered in https://https://github.com/ArjavJP/Cosmos-sdk/issues/9800
 // and ensures that the current code successfully fixes the issue.
 func (suite *CapabilityTestSuite) TestInitializeMemStore() {
 	sk1 := suite.keeper.ScopeToModule(banktypes.ModuleName)

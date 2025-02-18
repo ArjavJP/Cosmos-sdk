@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/rest"
-	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/rest"
+	govclient "https://github.com/ArjavJP/Cosmos-sdk/x/gov/client"
 )
 
 // ProposalHandler is the community spend proposal handler.

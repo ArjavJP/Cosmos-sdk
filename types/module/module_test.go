@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
 
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/tests/mocks"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/tests/mocks"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
 )
 
 var errFoo = errors.New("dummy")

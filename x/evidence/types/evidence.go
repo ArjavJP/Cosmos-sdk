@@ -9,8 +9,8 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"gopkg.in/yaml.v2"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
 )
 
 // Evidence type constants

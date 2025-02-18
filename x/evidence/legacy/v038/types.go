@@ -8,8 +8,8 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Default parameter values

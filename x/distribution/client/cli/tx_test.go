@@ -5,17 +5,17 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp/params"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
 
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 func Test_splitAndCall_NoMessages(t *testing.T) {

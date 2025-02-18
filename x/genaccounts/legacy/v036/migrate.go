@@ -5,11 +5,11 @@ package v036
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v034distr "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v034"
-	v034accounts "github.com/cosmos/cosmos-sdk/x/genaccounts/legacy/v034"
-	v034gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v034"
-	v034staking "github.com/cosmos/cosmos-sdk/x/staking/legacy/v034"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	v034distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
+	v034accounts "https://github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v034"
+	v034gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
+	v034staking "https://github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v034"
 
 	"github.com/tendermint/tendermint/crypto"
 )

@@ -9,7 +9,7 @@ account types for an application, as well as AnteHandler and authentication logi
 
    ```go
    import (
-       "github.com/cosmos/cosmos-sdk/x/auth"
+       "https://github.com/ArjavJP/Cosmos-sdk/x/auth"
    )
    ```
 
@@ -103,7 +103,7 @@ Where ever you define the application `Codec`, be sure to register types via:
 
 ```go
 import (
-    "github.com/cosmos/cosmos-sdk/x/auth/vesting"
+    "https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting"
 )
 
 func MakeCodec() *codec.Codec {

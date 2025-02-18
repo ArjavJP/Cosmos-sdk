@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
 )
 
 // GetQueryCmd returns the query commands for IBC connections

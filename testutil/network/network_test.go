@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
 )
 
 type IntegrationTestSuite struct {

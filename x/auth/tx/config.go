@@ -3,13 +3,13 @@ package tx
 import (
 	"fmt"
 
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	signingtypes "https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 type config struct {

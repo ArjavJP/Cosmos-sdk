@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/client/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/client/cli"
 )
 
 type IntegrationTestSuite struct {

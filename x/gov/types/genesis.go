@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // NewGenesisState creates a new genesis state for the governance module

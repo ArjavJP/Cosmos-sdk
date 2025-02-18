@@ -3,9 +3,9 @@ package keys
 import (
 	"bufio"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/input"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
 
 	"github.com/spf13/cobra"
 )

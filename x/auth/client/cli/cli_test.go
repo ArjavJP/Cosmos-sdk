@@ -16,26 +16,26 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authrest "github.com/cosmos/cosmos-sdk/x/auth/client/rest"
-	authtest "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	authcli "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/cli"
+	authrest "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/rest"
+	authtest "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/testutil"
+	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	bankcli "https://github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
+	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 type IntegrationTestSuite struct {
@@ -1157,7 +1157,7 @@ func (s *IntegrationTestSuite) TestQueryParamsCmd() {
 
 // TestTxWithoutPublicKey makes sure sending a proto tx message without the
 // public key doesn't cause any error in the RPC layer (broadcast).
-// See https://github.com/cosmos/cosmos-sdk/issues/7585 for more details.
+// See https://https://github.com/ArjavJP/Cosmos-sdk/issues/7585 for more details.
 func (s *IntegrationTestSuite) TestTxWithoutPublicKey() {
 	val1 := s.network.Validators[0]
 	txCfg := val1.ClientCtx.TxConfig

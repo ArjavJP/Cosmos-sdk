@@ -35,4 +35,4 @@ Cosmos-SDK 目前是用 [Golang](https://golang.org/)编写的, 尽管该框架�
 
 ## 贡献
 
-参考 [文档说明](https://github.com/cosmos/cosmos-sdk/blob/master/docs/DOCS_README.md) 了解构建细节及更新时注意事项。
+参考 [文档说明](https://https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/DOCS_README.md) 了解构建细节及更新时注意事项。

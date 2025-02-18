@@ -1,8 +1,8 @@
 package legacytx
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 var _ types.UnpackInterfacesMessage = StdSignMsg{}

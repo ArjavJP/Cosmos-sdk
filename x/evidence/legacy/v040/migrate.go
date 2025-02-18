@@ -3,9 +3,9 @@ package v040
 import (
 	"fmt"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	v038evidence "github.com/cosmos/cosmos-sdk/x/evidence/legacy/v038"
-	v040evidence "github.com/cosmos/cosmos-sdk/x/evidence/types"
+	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	v038evidence "https://github.com/ArjavJP/Cosmos-sdk/x/evidence/legacy/v038"
+	v040evidence "https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 )
 
 func migrateEvidence(oldEvidence v038evidence.Evidence) *codectypes.Any {

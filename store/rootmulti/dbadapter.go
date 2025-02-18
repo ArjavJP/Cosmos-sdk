@@ -1,8 +1,8 @@
 package rootmulti
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/dbadapter"
+	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 var commithash = []byte("FAKE_HASH")

@@ -7,12 +7,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"https://github.com/ArjavJP/Cosmos-sdk/version"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/client/utils"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"github.com/gogo/protobuf/grpc"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/client/cli"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
 )
 
 // Name returns the IBC client name

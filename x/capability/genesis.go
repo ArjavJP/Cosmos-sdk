@@ -1,9 +1,9 @@
 package capability
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

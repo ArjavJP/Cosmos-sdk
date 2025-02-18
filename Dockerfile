@@ -34,7 +34,7 @@ RUN apk add --update ca-certificates
 WORKDIR /root
 
 # Copy over binaries from the build-env
-COPY --from=build-env /go/src/github.com/cosmos/cosmos-sdk/build/simd /usr/bin/simd
+COPY --from=build-env /go/src/https://github.com/ArjavJP/Cosmos-sdk/build/simd /usr/bin/simd
 
 EXPOSE 26656 26657 1317 9090
 

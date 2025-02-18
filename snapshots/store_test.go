@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
+	"https://github.com/ArjavJP/Cosmos-sdk/snapshots/types"
+	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
 )
 
 func setupStore(t *testing.T) *snapshots.Store {

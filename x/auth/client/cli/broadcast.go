@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
 )
 
 // GetBroadcastCommand returns the tx broadcast command.

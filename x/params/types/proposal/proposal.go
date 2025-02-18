@@ -6,7 +6,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	govtypes "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 const (

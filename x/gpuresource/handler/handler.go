@@ -1,7 +1,7 @@
 package handler
 
 import (
-    "github.com/cosmos/cosmos-sdk/types"
+    "https://github.com/ArjavJP/Cosmos-sdk/types"
     "my-chain/x/gpuresource/types"
     "my-chain/x/gpuresource/keeper"
 )

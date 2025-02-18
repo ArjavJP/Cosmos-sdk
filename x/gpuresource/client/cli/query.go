@@ -3,9 +3,9 @@ package cli
 import (
     "fmt"
     "github.com/spf13/cobra"
-    "github.com/cosmos/cosmos-sdk/client"
+    "https://github.com/ArjavJP/Cosmos-sdk/client"
     "my-chain/x/gpuresource/types"
-    "github.com/cosmos/cosmos-sdk/types"
+    "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Query command to check GPU resources

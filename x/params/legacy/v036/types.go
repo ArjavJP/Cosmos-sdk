@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v036"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
 )
 
 const (

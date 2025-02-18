@@ -1,9 +1,9 @@
 package keyring
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
 )
 
 func init() {

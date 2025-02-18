@@ -1,7 +1,7 @@
 package keyring
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // KeyOutput defines a structure wrapping around an Info object used for output

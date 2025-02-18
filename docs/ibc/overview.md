@@ -75,7 +75,7 @@ IBC will correctly route all packets to the relevant module using the (channelID
 IBC module may also communicate with another IBC module over multiple ports, with each
 `(portID<->portID)` packet stream being sent on a different unique channel.
 
-### [Ports](https://github.com/cosmos/cosmos-sdk/tree/release/v0.42.x/x/ibc/core/05-port)
+### [Ports](https://https://github.com/ArjavJP/Cosmos-sdk/tree/release/v0.42.x/x/ibc/core/05-port)
 
 An IBC module may bind to any number of ports. Each port must be identified by a unique `portID`.
 Since IBC is designed to be secure with mutually-distrusted modules operating on the same ledger,
@@ -84,7 +84,7 @@ binding a port will return a dynamic object capability. In order to take action 
 handler. This prevents a malicious module from opening channels with ports it does not own. Thus,
 IBC modules are responsible for claiming the capability that is returned on `BindPort`.
 
-### [Channels](https://github.com/cosmos/cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
+### [Channels](https://https://github.com/ArjavJP/Cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
 
 An IBC channel can be established between 2 IBC ports. Currently, a port is exclusively owned by a
 single module. IBC packets are sent over channels. Just as IP packets contain the destination IP
@@ -119,7 +119,7 @@ that the module **must** claim so that they can pass in a capability to authenti
 like sending packets. The channel capability is passed into the callback on the first parts of the
 handshake; either `OnChanOpenInit` on the initializing chain or `OnChanOpenTry` on the other chain.
 
-### [Packets](https://github.com/cosmos/cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
+### [Packets](https://https://github.com/ArjavJP/Cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
 
 Modules communicate with each other by sending packets over IBC channels. As mentioned above, all
 IBC packets contain the destination `portID` and `channelID` along with the source `portID` and
@@ -134,7 +134,7 @@ Thus, packet data is completely opaque to IBC handlers. It is incumbent on a sen
 their application-specific packet information into the `Data` field of packets, and the receiver
 module to decode that `Data` back to the original application data.
 
-### [Receipts and Timeouts](https://github.com/cosmos/cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
+### [Receipts and Timeouts](https://https://github.com/ArjavJP/Cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
 
 Since IBC works over a distributed network and relies on potentially faulty relayers to relay messages between ledgers, 
 IBC must handle the case where a packet does not get sent to its destination in a timely manner or at all. Thus, packets must 
@@ -150,7 +150,7 @@ In the UNORDERED case, packets may be received in any order. Thus, IBC will writ
 
 For this reason, most modules should use UNORDERED channels as they require less liveness guarantees to function effectively for users of that channel.
 
-### [Acknowledgements](https://github.com/cosmos/cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
+### [Acknowledgements](https://https://github.com/ArjavJP/Cosmos-sdk/tree/release/v0.42.x/x/ibc/core/04-channel)
 
 Modules may also choose to write application-specific acknowledgements upon processing a packet. This may either be done synchronously on `OnRecvPacket`, if the module processes packets as soon as they are received from IBC module. Or they may be done asynchronously if module processes packets at some later point after receiving the packet.
 

@@ -1,9 +1,9 @@
 package simulation
 
 import (
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simappparams "https://github.com/ArjavJP/Cosmos-sdk/simapp/params"
+	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitParamChangeProposal app params key for param change proposal
