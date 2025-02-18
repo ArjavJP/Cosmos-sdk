@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cast"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/server/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/store"
-	storetypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/server/types"
+	"github.com/ArjavJP/Cosmos-sdk/store"
+	storetypes "github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 // GetPruningOptionsFromFlags parses command flags and returns the correct

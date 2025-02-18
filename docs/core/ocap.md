@@ -68,7 +68,7 @@ sumValue := externalModule.ComputeSumValue(*account)
 In the Cosmos SDK, you can see the application of this principle in the
 gaia app.
 
-+++ https://https://github.com/ArjavJP/Cosmos-sdk/blob/v0.41.4/simapp/app.go#L249-L273
++++ https://github.com/ArjavJP/Cosmos-sdk/blob/v0.41.4/simapp/app.go#L249-L273
 
 ## Next {hide}
 

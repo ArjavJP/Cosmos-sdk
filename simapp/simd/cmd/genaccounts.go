@@ -8,17 +8,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
-	"https://github.com/ArjavJP/Cosmos-sdk/server"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	authvesting "https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
-	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil"
-	genutiltypes "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	"github.com/ArjavJP/Cosmos-sdk/server"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	authvesting "github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
+	banktypes "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil"
+	genutiltypes "github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
 )
 
 const (

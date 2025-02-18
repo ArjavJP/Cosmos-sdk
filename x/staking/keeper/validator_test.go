@@ -10,13 +10,13 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/teststaking"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	banktypes "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/teststaking"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 func newMonikerValidator(t testing.TB, operator sdk.ValAddress, pubKey cryptotypes.PubKey, moniker string) types.Validator {

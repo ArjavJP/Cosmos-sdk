@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
 )
 
 // DONTCOVER

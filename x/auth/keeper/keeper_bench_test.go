@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"testing"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 func BenchmarkAccountMapperGetAccountFound(b *testing.B) {

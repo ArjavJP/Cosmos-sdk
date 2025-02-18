@@ -1,17 +1,17 @@
 package keeper
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	capabilitykeeper "https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
-	clientkeeper "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/keeper"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	connectionkeeper "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/keeper"
-	channelkeeper "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/keeper"
-	portkeeper "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/keeper"
-	porttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/types"
-	paramtypes "https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	capabilitykeeper "github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	clientkeeper "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/keeper"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	connectionkeeper "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/keeper"
+	channelkeeper "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/keeper"
+	portkeeper "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/keeper"
+	porttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/types"
+	paramtypes "github.com/ArjavJP/Cosmos-sdk/x/params/types"
 )
 
 var _ types.QueryServer = (*Keeper)(nil)

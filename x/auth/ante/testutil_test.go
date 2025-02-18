@@ -8,17 +8,17 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
-	xauthsigning "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
+	xauthsigning "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 // TestAccount represents an account used in the tests in x/auth/ante.

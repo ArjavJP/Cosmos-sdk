@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 func TestParseIdentifier(t *testing.T) {

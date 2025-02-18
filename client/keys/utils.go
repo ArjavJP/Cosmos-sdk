@@ -7,7 +7,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	cryptokeyring "https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	cryptokeyring "github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
 )
 
 // available output formats.

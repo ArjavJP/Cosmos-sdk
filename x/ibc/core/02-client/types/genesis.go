@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var (

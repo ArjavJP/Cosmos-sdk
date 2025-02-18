@@ -6,8 +6,8 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // get a single validator

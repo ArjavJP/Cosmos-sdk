@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/iavl"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/rootmulti"
-	storetypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/iavl"
+	"github.com/ArjavJP/Cosmos-sdk/store/rootmulti"
+	storetypes "github.com/ArjavJP/Cosmos-sdk/store/types"
 
 	dbm "github.com/tendermint/tm-db"
 )

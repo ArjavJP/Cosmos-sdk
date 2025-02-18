@@ -5,8 +5,8 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // GetValidatorSigningInfo retruns the ValidatorSigningInfo for a specific validator

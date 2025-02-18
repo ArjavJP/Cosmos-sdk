@@ -1,14 +1,14 @@
 package ante
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
-	authsigning "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	authsigning "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 // ValidateBasicDecorator will call tx.ValidateBasic and return any non-nil error.

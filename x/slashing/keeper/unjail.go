@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // Unjail calls the staking Unjail function to unjail a validator if the

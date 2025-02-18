@@ -10,13 +10,13 @@ import (
 	bip39 "github.com/cosmos/go-bip39"
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 const (

@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var _ exported.ConnectionI = (*ConnectionEnd)(nil)

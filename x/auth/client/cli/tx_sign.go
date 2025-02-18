@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/rest"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authclient "github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/client/rest"
 )
 
 const (

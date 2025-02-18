@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
 )
 
 func (suite *MerkleTestSuite) TestVerifyMembership() {

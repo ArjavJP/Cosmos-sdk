@@ -1,7 +1,7 @@
 package proposal
 
 import (
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // x/params module sentinel errors

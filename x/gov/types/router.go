@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 var _ Router = (*router)(nil)

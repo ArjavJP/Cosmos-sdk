@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 )
 
 // Simulation parameter constants

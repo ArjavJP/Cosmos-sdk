@@ -1,15 +1,15 @@
 package types_test
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
 )
 
 const (

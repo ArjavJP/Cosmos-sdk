@@ -1,6 +1,6 @@
 package v039
 
-import sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+import sdk "github.com/ArjavJP/Cosmos-sdk/types"
 
 const (
 	ModuleName = "mint"

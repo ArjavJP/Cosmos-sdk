@@ -6,17 +6,17 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
-	authsigning "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	authsigning "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 var (

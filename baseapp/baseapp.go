@@ -13,12 +13,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
-	"https://github.com/ArjavJP/Cosmos-sdk/store"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/rootmulti"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/snapshots"
+	"github.com/ArjavJP/Cosmos-sdk/store"
+	"github.com/ArjavJP/Cosmos-sdk/store/rootmulti"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 const (
@@ -540,7 +540,7 @@ func (app *BaseApp) getContextForTx(mode runTxMode, txBytes []byte) sdk.Context 
 // a branched multi-store.
 func (app *BaseApp) cacheTxContext(ctx sdk.Context, txBytes []byte) (sdk.Context, sdk.CacheMultiStore) {
 	ms := ctx.MultiStore()
-	// TODO: https://https://github.com/ArjavJP/Cosmos-sdk/issues/2824
+	// TODO: https://github.com/ArjavJP/Cosmos-sdk/issues/2824
 	msCache := ms.CacheMultiStore()
 	if msCache.TracingEnabled() {
 		msCache = msCache.SetTracingContext(
@@ -627,7 +627,7 @@ func (app *BaseApp) runTx(mode runTxMode, txBytes []byte) (gInfo sdk.GasInfo, re
 
 		// Branch context before AnteHandler call in case it aborts.
 		// This is required for both CheckTx and DeliverTx.
-		// Ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/2772
+		// Ref: https://github.com/ArjavJP/Cosmos-sdk/issues/2772
 		//
 		// NOTE: Alternatively, we could require that AnteHandler ensures that
 		// writes do not happen if aborted/failed.  This may have some

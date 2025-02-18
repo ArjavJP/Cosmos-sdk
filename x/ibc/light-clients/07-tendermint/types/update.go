@@ -7,12 +7,12 @@ import (
 	"github.com/tendermint/tendermint/light"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // CheckHeaderAndUpdateState checks if the provided header is valid, and if valid it will:

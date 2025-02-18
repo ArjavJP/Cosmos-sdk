@@ -1,9 +1,9 @@
 package auth
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 // InitGenesis - Init store state from genesis data

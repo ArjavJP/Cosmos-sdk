@@ -3,13 +3,13 @@ package types
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	upgradetypes "https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	upgradetypes "github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
 )
 
 // VerifyUpgradeAndUpdateState checks if the upgraded client has been committed by the current client

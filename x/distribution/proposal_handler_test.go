@@ -6,11 +6,11 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 var (

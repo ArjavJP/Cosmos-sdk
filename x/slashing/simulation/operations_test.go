@@ -9,15 +9,15 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	simappparams "https://github.com/ArjavJP/Cosmos-sdk/simapp/params"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	distrtypes "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	minttypes "https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	simappparams "github.com/ArjavJP/Cosmos-sdk/simapp/params"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	distrtypes "github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	minttypes "github.com/ArjavJP/Cosmos-sdk/x/mint/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // TestWeightedOperations tests the weights of the operations.

@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 var (

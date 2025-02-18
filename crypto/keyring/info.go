@@ -3,12 +3,12 @@ package keyring
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Info is the publicly exposed information about a keypair

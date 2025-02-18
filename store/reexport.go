@@ -1,7 +1,7 @@
 package store
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 // Import cosmos-sdk/types/store.go for convenience.

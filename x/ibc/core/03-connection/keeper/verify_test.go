@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
-	ibcmock "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing/mock"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
+	ibcmock "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing/mock"
 )
 
 var defaultTimeoutHeight = clienttypes.NewHeight(0, 100000)

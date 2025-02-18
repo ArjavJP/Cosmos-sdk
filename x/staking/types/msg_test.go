@@ -5,13 +5,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptocodec "github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 var (

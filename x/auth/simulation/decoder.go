@@ -6,9 +6,9 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 type AuthUnmarshaler interface {

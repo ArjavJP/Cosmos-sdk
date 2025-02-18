@@ -6,14 +6,14 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/version"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	channelutils "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/client/utils"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/version"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	channelutils "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/client/utils"
 )
 
 const (

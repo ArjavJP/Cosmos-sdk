@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 )
 
 // AminoMultisignature is used to represent amino multi-signatures for StdTx's.

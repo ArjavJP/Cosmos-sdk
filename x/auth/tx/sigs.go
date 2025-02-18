@@ -3,11 +3,11 @@ package tx
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 )
 
 // SignatureDataToModeInfoAndSig converts a SignatureData to a ModeInfo and raw bytes signature

@@ -1,7 +1,7 @@
 // Package tx 's xauthclient.go file is copy-pasted from
-// https://https://github.com/ArjavJP/Cosmos-sdk/blob/v0.41.3/x/auth/client/query.go
+// https://github.com/ArjavJP/Cosmos-sdk/blob/v0.41.3/x/auth/client/query.go
 // It is duplicated as to not introduce any breaking change in 0.41.4, see PR:
-// https://https://github.com/ArjavJP/Cosmos-sdk/pull/8732#discussion_r584746947
+// https://github.com/ArjavJP/Cosmos-sdk/pull/8732#discussion_r584746947
 package tx
 
 import (
@@ -14,9 +14,9 @@ import (
 
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // QueryTxsByEvents performs a search for transactions for a given set of events
@@ -47,7 +47,7 @@ func queryTxsByEvents(goCtx context.Context, clientCtx client.Context, events []
 	}
 
 	// TODO: this may not always need to be proven
-	// https://https://github.com/ArjavJP/Cosmos-sdk/issues/6807
+	// https://github.com/ArjavJP/Cosmos-sdk/issues/6807
 	resTxs, err := node.TxSearch(goCtx, query, true, &page, &limit, orderBy)
 	if err != nil {
 		return nil, err
@@ -82,7 +82,7 @@ func queryTx(goCtx context.Context, clientCtx client.Context, hashHexStr string)
 	}
 
 	//TODO: this may not always need to be proven
-	// https://https://github.com/ArjavJP/Cosmos-sdk/issues/6807
+	// https://github.com/ArjavJP/Cosmos-sdk/issues/6807
 	resTx, err := node.Tx(goCtx, hash, true)
 	if err != nil {
 		return nil, err

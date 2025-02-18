@@ -5,16 +5,16 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
-	v040distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	v034gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
-	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
-	v040gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
-	v036params "https://github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
-	v040params "https://github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
-	v038upgrade "https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/legacy/v038"
-	v040upgrade "https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	v036distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	v040distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	v034gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
+	v036gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
+	v040gov "github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	v036params "github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
+	v040params "github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
+	v038upgrade "github.com/ArjavJP/Cosmos-sdk/x/upgrade/legacy/v038"
+	v040upgrade "github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
 )
 
 func migrateVoteOption(oldVoteOption v034gov.VoteOption) v040gov.VoteOption {

@@ -6,11 +6,11 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/x/capability/types"
 )
 
 type (
@@ -377,7 +377,7 @@ func (sk ScopedKeeper) GetCapability(ctx sdk.Context, name string) (*types.Capab
 		// go map do not automatically get reverted on tx failure,
 		// so we delete here to remove unnecessary values in map
 		// TODO: Delete index correctly from capMap by storing some reverse lookup
-		// in-memory map. Issue: https://https://github.com/ArjavJP/Cosmos-sdk/issues/7805
+		// in-memory map. Issue: https://github.com/ArjavJP/Cosmos-sdk/issues/7805
 
 		return nil, false
 	}

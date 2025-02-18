@@ -8,9 +8,9 @@ import (
 	tmcfg "github.com/tendermint/tendermint/config"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/server"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/server"
 )
 
 // Execute executes the root command of an application. It handles creating a

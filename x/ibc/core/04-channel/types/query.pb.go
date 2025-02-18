@@ -6,9 +6,9 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	types1 "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	query "https://github.com/ArjavJP/Cosmos-sdk/types/query"
-	types "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	types1 "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	query "github.com/ArjavJP/Cosmos-sdk/types/query"
+	types "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"

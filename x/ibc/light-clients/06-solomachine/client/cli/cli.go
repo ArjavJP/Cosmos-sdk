@@ -3,8 +3,8 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
 )
 
 // NewTxCmd returns a root CLI command handler for all solo machine transaction commands.

@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // BeginBlocker check for infraction evidence or downtime of validators

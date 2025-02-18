@@ -1,7 +1,7 @@
 package v036
 
 import (
-	v034gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
+	v034gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
 )
 
 // Migrate accepts exported genesis state from v0.34 and migrates it to v0.36

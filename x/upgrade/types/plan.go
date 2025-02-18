@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	ibcexported "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	ibcexported "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var _ codectypes.UnpackInterfacesMessage = Plan{}

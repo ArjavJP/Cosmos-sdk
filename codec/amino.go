@@ -10,7 +10,7 @@ import (
 	amino "github.com/tendermint/go-amino"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec/types"
 )
 
 // Deprecated: LegacyAmino defines a wrapper for an Amino codec that properly handles protobuf

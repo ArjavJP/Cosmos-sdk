@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 )
 
 func TestDecodeStore(t *testing.T) {

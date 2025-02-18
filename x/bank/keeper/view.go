@@ -5,12 +5,12 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	vestexported "https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	vestexported "github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 var _ ViewKeeper = (*BaseViewKeeper)(nil)

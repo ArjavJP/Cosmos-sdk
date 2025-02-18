@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
 
 	"github.com/stretchr/testify/require"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	keep "https://github.com/ArjavJP/Cosmos-sdk/x/mint/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	keep "github.com/ArjavJP/Cosmos-sdk/x/mint/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

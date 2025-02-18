@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // SenderChainIsSource returns false if the denomination originally came

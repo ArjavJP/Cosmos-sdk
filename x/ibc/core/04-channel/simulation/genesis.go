@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // GenChannelGenesis returns the default channel genesis state.

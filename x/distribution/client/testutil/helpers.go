@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	distrcli "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	distrcli "github.com/ArjavJP/Cosmos-sdk/x/distribution/client/cli"
 )
 
 func MsgWithdrawDelegatorRewardExec(clientCtx client.Context, valAddr fmt.Stringer, extraArgs ...string) ([]byte, error) {

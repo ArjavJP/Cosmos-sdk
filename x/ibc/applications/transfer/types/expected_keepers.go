@@ -1,12 +1,12 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	ibcexported "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	capabilitytypes "github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	ibcexported "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // AccountKeeper defines the contract required for account APIs.

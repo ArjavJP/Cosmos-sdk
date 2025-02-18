@@ -10,9 +10,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx"
 )
 
 // GRPCQueryRouter returns the GRPCQueryRouter of a BaseApp.

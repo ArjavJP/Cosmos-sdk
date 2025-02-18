@@ -7,11 +7,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/query"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 var _ types.QueryServer = Keeper{}

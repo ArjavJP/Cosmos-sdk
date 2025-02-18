@@ -8,13 +8,13 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/version"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/version"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // default values

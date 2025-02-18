@@ -10,29 +10,29 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/suite"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
-	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	txtypes "https://github.com/ArjavJP/Cosmos-sdk/types/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
-	authcli "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/cli"
-	authrest "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/rest"
-	authtest "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client/testutil"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
-	bankcli "https://github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
-	ibccli "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/client/cli"
-	ibcsolomachinecli "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil"
+	clitestutil "github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	txtypes "github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	authclient "github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	authcli "github.com/ArjavJP/Cosmos-sdk/x/auth/client/cli"
+	authrest "github.com/ArjavJP/Cosmos-sdk/x/auth/client/rest"
+	authtest "github.com/ArjavJP/Cosmos-sdk/x/auth/client/testutil"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	bankcli "github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	ibccli "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/client/cli"
+	ibcsolomachinecli "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/client/cli"
 )
 
 type IntegrationTestSuite struct {
@@ -102,7 +102,7 @@ func mkStdTx() legacytx.StdTx {
 
 // Create an IBC tx that's encoded as amino-JSON. Since we can't amino-marshal
 // a tx with "cosmos-sdk/MsgTransfer" using the SDK, we just hardcode the tx
-// here. But external clients might, see https://https://github.com/ArjavJP/Cosmos-sdk/issues/8022.
+// here. But external clients might, see https://github.com/ArjavJP/Cosmos-sdk/issues/8022.
 func mkIBCStdTx() []byte {
 	ibcTx := `{
 		"account_number": "68",
@@ -556,7 +556,7 @@ func (s *IntegrationTestSuite) TestLegacyRestErrMessages() {
 
 // TestLegacyMultiSig creates a legacy multisig transaction, and makes sure
 // we can query it via the legacy REST endpoint.
-// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8679
+// ref: https://github.com/ArjavJP/Cosmos-sdk/issues/8679
 func (s *IntegrationTestSuite) TestLegacyMultisig() {
 	val1 := *s.network.Validators[0]
 

@@ -1,7 +1,7 @@
 package gpuresource
 
 import (
-    "https://github.com/ArjavJP/Cosmos-sdk/types"
+    "github.com/ArjavJP/Cosmos-sdk/types"
     "my-chain/x/gpuresource/keeper"
     "my-chain/x/gpuresource/handler"
     "my-chain/x/gpuresource/types"

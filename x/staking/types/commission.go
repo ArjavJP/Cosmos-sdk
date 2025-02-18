@@ -5,7 +5,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // NewCommissionRates returns an initialized validator commission rates.

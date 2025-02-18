@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/types/simulation"
 )
 
 // TransitionMatrix is _almost_ a left stochastic matrix.  It is technically

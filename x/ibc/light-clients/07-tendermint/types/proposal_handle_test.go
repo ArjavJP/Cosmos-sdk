@@ -1,10 +1,10 @@
 package types_test
 
 import (
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
 )
 
 var (

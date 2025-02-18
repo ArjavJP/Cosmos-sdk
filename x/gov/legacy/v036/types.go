@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v034gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
 )
 
 const (

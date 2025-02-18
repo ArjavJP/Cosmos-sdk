@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/server"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/server"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
 )
 
 const flagGenTxDir = "gentx-dir"

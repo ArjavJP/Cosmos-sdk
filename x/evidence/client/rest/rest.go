@@ -3,8 +3,8 @@ package rest
 import (
 	"net/http"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/rest"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/rest"
 
 	"github.com/gorilla/mux"
 )

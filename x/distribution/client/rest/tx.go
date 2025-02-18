@@ -5,12 +5,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/client/common"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/client/common"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 type (

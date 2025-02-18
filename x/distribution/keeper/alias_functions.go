@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
 )
 
 // get outstanding rewards

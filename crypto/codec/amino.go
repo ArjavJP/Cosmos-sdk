@@ -3,11 +3,11 @@ package codec
 import (
 	"github.com/tendermint/tendermint/crypto/sr25519"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
 )
 
 // RegisterCrypto registers all crypto dependency types with the provided Amino

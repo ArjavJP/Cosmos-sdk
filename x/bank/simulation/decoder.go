@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 // SupplyUnmarshaler defines the expected encoding store functions.

@@ -3,12 +3,12 @@ package query_test
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/query"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 var addr1 = sdk.AccAddress([]byte("addr1"))

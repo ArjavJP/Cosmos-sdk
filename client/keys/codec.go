@@ -1,8 +1,8 @@
 package keys
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	cryptocodec "github.com/ArjavJP/Cosmos-sdk/crypto/codec"
 )
 
 // KeysCdc defines codec to be used with key operations

@@ -8,12 +8,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/version"
-	gcutils "https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/version"
+	gcutils "github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

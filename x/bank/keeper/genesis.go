@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 // InitGenesis initializes the bank module's state from a given genesis state.

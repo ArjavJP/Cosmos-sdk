@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	signingtypes "https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	signingtypes "github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 // TxConfigTestSuite provides a test suite that can be used to test that a TxConfig implementation is correct

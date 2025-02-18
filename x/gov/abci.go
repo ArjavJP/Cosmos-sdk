@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 // EndBlocker called every block, process inflation, update validator set.

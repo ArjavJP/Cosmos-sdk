@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var (

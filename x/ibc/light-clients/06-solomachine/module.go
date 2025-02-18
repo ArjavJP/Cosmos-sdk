@@ -3,8 +3,8 @@ package solomachine
 import (
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
 )
 
 // Name returns the solo machine client name.

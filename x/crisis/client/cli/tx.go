@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
 )
 
 // NewTxCmd returns a root CLI command handler for all x/crisis transaction commands.

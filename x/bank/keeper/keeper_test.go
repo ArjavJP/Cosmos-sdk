@@ -9,14 +9,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/baseapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authkeeper "https://github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	vesting "https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/baseapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authkeeper "github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	vesting "github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 const (

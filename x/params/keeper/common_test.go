@@ -5,12 +5,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/store"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	paramskeeper "https://github.com/ArjavJP/Cosmos-sdk/x/params/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/store"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	paramskeeper "github.com/ArjavJP/Cosmos-sdk/x/params/keeper"
 )
 
 func testComponents() (*codec.LegacyAmino, sdk.Context, sdk.StoreKey, sdk.StoreKey, paramskeeper.Keeper) {

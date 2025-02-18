@@ -13,18 +13,18 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	eviclient "https://github.com/ArjavJP/Cosmos-sdk/x/evidence/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/client/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	eviclient "github.com/ArjavJP/Cosmos-sdk/x/evidence/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/client/rest"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 )
 
 var (

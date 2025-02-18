@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 )
 
 func testHandler(sdk.Context, exported.Evidence) error { return nil }

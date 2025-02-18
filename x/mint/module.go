@@ -11,17 +11,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	cdctypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/client/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	cdctypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/client/rest"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 )
 
 var (

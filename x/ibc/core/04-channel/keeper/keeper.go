@@ -7,17 +7,17 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	db "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	capabilitykeeper "https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
-	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	porttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	capabilitykeeper "github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	porttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // Keeper defines the IBC channel keeper

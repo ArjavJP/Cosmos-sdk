@@ -217,7 +217,7 @@ and `BalanceResponse`.
 
 #### Use just `Query` for the query service
 
-Instead of [Buf's default service suffix recommendation](https://https://github.com/ArjavJP/Cosmos-sdk/pull/6033),
+Instead of [Buf's default service suffix recommendation](https://github.com/ArjavJP/Cosmos-sdk/pull/6033),
 we should simply use the shorter `Query` for query services.
 
 For other types of gRPC services, we should consider sticking with Buf's

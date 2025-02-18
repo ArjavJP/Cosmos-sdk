@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 // IBC connection events

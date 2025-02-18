@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 var _ types.MsgServer = Keeper{}

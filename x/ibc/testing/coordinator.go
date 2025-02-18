@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var (
@@ -274,7 +274,7 @@ func (coord *Coordinator) WriteAcknowledgement(
 // the counterparty chain and updates the client on the counterparty representing
 // the source chain.
 // TODO: add a query for the acknowledgement by events
-// - https://https://github.com/ArjavJP/Cosmos-sdk/issues/6509
+// - https://github.com/ArjavJP/Cosmos-sdk/issues/6509
 func (coord *Coordinator) AcknowledgePacket(
 	source, counterparty *TestChain,
 	counterpartyClient string,

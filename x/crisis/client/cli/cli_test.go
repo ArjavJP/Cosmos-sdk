@@ -9,11 +9,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	clitestutil "github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/client/cli"
 )
 
 type IntegrationTestSuite struct {

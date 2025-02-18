@@ -1,4 +1,4 @@
-module https://github.com/ArjavJP/Cosmos-sdk/cosmovisor
+module github.com/ArjavJP/Cosmos-sdk/cosmovisor
 
 go 1.14
 

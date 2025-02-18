@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Validate performs basic validation of supply genesis data returning an

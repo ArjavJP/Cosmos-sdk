@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/baseapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
+	"github.com/ArjavJP/Cosmos-sdk/baseapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
 )
 
 type KeeperTestSuite struct {

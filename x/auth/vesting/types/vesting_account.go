@@ -6,9 +6,9 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	vestexported "https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/exported"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	vestexported "github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/exported"
 )
 
 // Compile-time type assertions

@@ -6,11 +6,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	gcutils "https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	gcutils "github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 func registerTxHandlers(clientCtx client.Context, r *mux.Router, phs []ProposalRESTHandler) {

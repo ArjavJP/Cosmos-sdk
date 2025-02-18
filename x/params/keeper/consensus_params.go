@@ -4,8 +4,8 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/baseapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	"github.com/ArjavJP/Cosmos-sdk/baseapp"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types"
 )
 
 // ConsensusParamsKeyTable returns an x/params module keyTable to be used in

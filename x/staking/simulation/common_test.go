@@ -3,7 +3,7 @@ package simulation_test
 import (
 	"math/big"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 func init() {

@@ -13,10 +13,10 @@ import (
 
 	"github.com/cosmos/go-bip39"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
-	csecp256k1 "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	csecp256k1 "github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/ArjavJP/Cosmos-sdk/testutil"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,

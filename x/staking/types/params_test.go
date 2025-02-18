@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 func TestParamsEqual(t *testing.T) {

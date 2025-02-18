@@ -5,8 +5,8 @@ import (
 	"bytes"
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // An sdk.Tx which is its own sdk.Msg.

@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 func (suite *KeeperTestSuite) TestGenesis() {

@@ -3,11 +3,11 @@ package tx
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 // ConvertTxToStdTx converts a transaction to the legacy StdTx format

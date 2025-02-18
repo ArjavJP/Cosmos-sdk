@@ -1,11 +1,11 @@
 package types
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // NewTestMsg generates a test message

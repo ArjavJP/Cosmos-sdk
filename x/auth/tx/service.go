@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	pagination "https://github.com/ArjavJP/Cosmos-sdk/types/query"
-	txtypes "https://github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	pagination "github.com/ArjavJP/Cosmos-sdk/types/query"
+	txtypes "github.com/ArjavJP/Cosmos-sdk/types/tx"
 )
 
 // baseAppSimulateFn is the signature of the Baseapp#Simulate function.
@@ -123,7 +123,7 @@ func (s txServer) GetTx(ctx context.Context, req *txtypes.GetTxRequest) (*txtype
 	}
 
 	// TODO We should also check the proof flag in gRPC header.
-	// https://https://github.com/ArjavJP/Cosmos-sdk/issues/7036.
+	// https://github.com/ArjavJP/Cosmos-sdk/issues/7036.
 	result, err := queryTx(ctx, s.clientCtx, req.Hash)
 	if err != nil {
 		return nil, err

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // NewValidatorSigningInfo creates a new ValidatorSigningInfo instance

@@ -3,11 +3,11 @@ package utils
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	authclient "github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 const (

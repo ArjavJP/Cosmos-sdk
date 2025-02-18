@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	gov "github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 const (

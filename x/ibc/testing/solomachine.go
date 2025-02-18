@@ -5,18 +5,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	solomachinetypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	solomachinetypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
 )
 
 var prefix = commitmenttypes.NewMerklePrefix([]byte("ibc"))

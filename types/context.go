@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/gaskv"
-	stypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/gaskv"
+	stypes "github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 /*

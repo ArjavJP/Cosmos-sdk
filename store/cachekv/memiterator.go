@@ -5,7 +5,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
 )
 
 // Iterates over iterKVCache items.

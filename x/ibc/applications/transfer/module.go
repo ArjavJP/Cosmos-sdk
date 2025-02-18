@@ -14,21 +14,21 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	porttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	capabilitytypes "github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	porttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 var (
@@ -197,7 +197,7 @@ func ValidateTransferChannelParams(
 	version string,
 ) error {
 	// NOTE: for escrow address security only 2^32 channels are allowed to be created
-	// Issue: https://https://github.com/ArjavJP/Cosmos-sdk/issues/7737
+	// Issue: https://github.com/ArjavJP/Cosmos-sdk/issues/7737
 	channelSequence, err := channeltypes.ParseChannelSequence(channelID)
 	if err != nil {
 		return err

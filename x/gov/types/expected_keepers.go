@@ -1,9 +1,9 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // ParamSubspace defines the expected Subspace interface for parameters (noalias)
@@ -33,7 +33,7 @@ type AccountKeeper interface {
 	GetModuleAddress(name string) sdk.AccAddress
 	GetModuleAccount(ctx sdk.Context, name string) types.ModuleAccountI
 
-	// TODO remove with genesis 2-phases refactor https://https://github.com/ArjavJP/Cosmos-sdk/issues/2862
+	// TODO remove with genesis 2-phases refactor https://github.com/ArjavJP/Cosmos-sdk/issues/2862
 	SetModuleAccount(sdk.Context, types.ModuleAccountI)
 }
 

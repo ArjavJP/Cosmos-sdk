@@ -3,8 +3,8 @@ package tendermint
 import (
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
 )
 
 // Name returns the IBC client name

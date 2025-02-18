@@ -3,9 +3,9 @@ package v036
 import (
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	"https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/ArjavJP/Cosmos-sdk/types"
+	v034distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
 
 	"github.com/stretchr/testify/require"
 )

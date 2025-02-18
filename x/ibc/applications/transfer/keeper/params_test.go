@@ -1,6 +1,6 @@
 package keeper_test
 
-import "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+import "github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 
 func (suite *KeeperTestSuite) TestParams() {
 	expParams := types.DefaultParams()

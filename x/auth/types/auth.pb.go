@@ -5,7 +5,7 @@ package types
 
 import (
 	fmt "fmt"
-	types "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	types "github.com/ArjavJP/Cosmos-sdk/codec/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/regen-network/cosmos-proto"

@@ -1,10 +1,10 @@
 package gov
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 // NewHandler creates an sdk.Handler for all the gov type messages

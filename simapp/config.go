@@ -3,7 +3,7 @@ package simapp
 import (
 	"flag"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/types/simulation"
 )
 
 // List of available flags for the simulator

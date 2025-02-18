@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // tests ParseChannelSequence and IsValidChannelID

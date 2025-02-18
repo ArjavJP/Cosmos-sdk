@@ -2,7 +2,7 @@
 package v038
 
 import (
-	v036staking "https://github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v036"
+	v036staking "github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v036"
 )
 
 // Migrate accepts exported genesis state from v0.36 or v0.37 and migrates it to

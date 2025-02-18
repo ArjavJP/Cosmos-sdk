@@ -4,10 +4,10 @@ package v036
 import (
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034staking "https://github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v034"
+	"github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v034staking "github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v034"
 )
 
 const (

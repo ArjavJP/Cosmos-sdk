@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	paramtypes "https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	paramtypes "github.com/ArjavJP/Cosmos-sdk/x/params/types"
 )
 
 const (

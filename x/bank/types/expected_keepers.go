@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 // AccountKeeper defines the account contract that must be fulfilled when

@@ -5,8 +5,8 @@ package rest_test
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 func (s *IntegrationTestSuite) TestLegacyGetAllProposals() {

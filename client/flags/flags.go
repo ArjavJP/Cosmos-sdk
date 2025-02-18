@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
 )
 
 const (

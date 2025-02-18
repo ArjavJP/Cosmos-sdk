@@ -10,9 +10,9 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/legacy"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/bech32"
+	"github.com/ArjavJP/Cosmos-sdk/codec/legacy"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/bech32"
 )
 
 const (

@@ -1,11 +1,11 @@
 package types
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/msgservice"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptocodec "github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/msgservice"
 )
 
 // RegisterLegacyAminoCodec registers the necessary x/crisis interfaces and concrete types

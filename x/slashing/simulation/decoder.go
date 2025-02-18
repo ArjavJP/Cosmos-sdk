@@ -6,9 +6,9 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

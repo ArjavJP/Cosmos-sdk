@@ -1,15 +1,15 @@
 package keeper
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	porttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	capabilitytypes "github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	porttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // CounterpartyHops returns the connection hops of the counterparty channel.

@@ -9,16 +9,16 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/testslashing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/teststaking"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/testslashing"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/teststaking"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 func TestCannotUnjailUnlessJailed(t *testing.T) {

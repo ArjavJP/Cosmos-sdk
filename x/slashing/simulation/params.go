@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 const (

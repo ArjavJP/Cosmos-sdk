@@ -3,12 +3,12 @@ package codec_test
 import (
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	"github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
 )
 
 func TestMarshalYAML(t *testing.T) {

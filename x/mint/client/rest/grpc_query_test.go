@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	grpctypes "https://github.com/ArjavJP/Cosmos-sdk/types/grpc"
+	"github.com/ArjavJP/Cosmos-sdk/testutil"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	grpctypes "github.com/ArjavJP/Cosmos-sdk/types/grpc"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
-	minttypes "https://github.com/ArjavJP/Cosmos-sdk/x/mint/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	minttypes "github.com/ArjavJP/Cosmos-sdk/x/mint/types"
 )
 
 type IntegrationTestSuite struct {

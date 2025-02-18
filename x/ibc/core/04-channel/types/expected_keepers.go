@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	capabilitytypes "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	capabilitytypes "github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // ClientKeeper expected account IBC client keeper

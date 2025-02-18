@@ -9,14 +9,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
-	distrtypes "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	banktypes "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
+	distrtypes "github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 var (

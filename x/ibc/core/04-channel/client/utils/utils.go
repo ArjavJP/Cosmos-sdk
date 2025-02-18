@@ -4,15 +4,15 @@ import (
 	"context"
 	"encoding/binary"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clientutils "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/client/utils"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	ibcclient "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clientutils "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/client/utils"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	ibcclient "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // QueryChannel returns a channel end.

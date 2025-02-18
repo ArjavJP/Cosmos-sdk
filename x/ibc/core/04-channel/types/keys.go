@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 const (

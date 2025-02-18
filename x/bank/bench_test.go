@@ -7,12 +7,12 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	simappparams "https://github.com/ArjavJP/Cosmos-sdk/simapp/params"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	simappparams "github.com/ArjavJP/Cosmos-sdk/simapp/params"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 var moduleAccAddr = authtypes.NewModuleAddress(stakingtypes.BondedPoolName)

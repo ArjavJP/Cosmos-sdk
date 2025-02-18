@@ -14,18 +14,18 @@ import (
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 	"github.com/tendermint/tendermint/rpc/client/http"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/hd"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	clitestutil "https://github.com/ArjavJP/Cosmos-sdk/testutil/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
-	banktestutil "https://github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/client/cli"
-	stakingtestutil "https://github.com/ArjavJP/Cosmos-sdk/x/staking/client/testutil"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/hd"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	clitestutil "github.com/ArjavJP/Cosmos-sdk/testutil/cli"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/query"
+	banktestutil "github.com/ArjavJP/Cosmos-sdk/x/bank/client/testutil"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/client/cli"
+	stakingtestutil "github.com/ArjavJP/Cosmos-sdk/x/staking/client/testutil"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {
@@ -1271,7 +1271,7 @@ func (s *IntegrationTestSuite) TestNewCmdUnbond() {
 
 // TestBlockResults tests that the validator updates correctly show when
 // calling the /block_results RPC endpoint.
-// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/7401.
+// ref: https://github.com/ArjavJP/Cosmos-sdk/issues/7401.
 func (s *IntegrationTestSuite) TestBlockResults() {
 	require := s.Require()
 	val := s.network.Validators[0]

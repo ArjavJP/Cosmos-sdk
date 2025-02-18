@@ -1,9 +1,9 @@
 package types_test
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
-	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	ibctesting "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
 )
 
 func (suite *SoloMachineTestSuite) TestConsensusState() {

@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	ibctmtypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
 )
 
 func (suite *TypesTestSuite) TestMarshalHeader() {

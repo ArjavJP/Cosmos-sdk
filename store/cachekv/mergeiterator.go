@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 // cacheMergeIterator merges a parent Iterator and a cache Iterator.

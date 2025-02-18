@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 // Interface implementation checks.

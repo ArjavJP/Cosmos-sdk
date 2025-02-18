@@ -10,15 +10,15 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
 )
 
 var (

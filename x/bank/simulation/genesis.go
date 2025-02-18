@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	"github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 // RandomGenesisDefaultSendParam computes randomized allow all send transfers param for the bank module

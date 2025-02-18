@@ -1,10 +1,10 @@
 package v040
 
 import (
-	v039auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v039"
-	v036supply "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
-	v038bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v038"
-	v040bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	v039auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v039"
+	v036supply "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
+	v038bank "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v038"
+	v040bank "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 // Migrate accepts exported v0.39 x/auth and v0.38 x/bank genesis state and

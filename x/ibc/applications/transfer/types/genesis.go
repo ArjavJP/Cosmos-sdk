@@ -1,7 +1,7 @@
 package types
 
 import (
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
 )
 
 // NewGenesisState creates a new ibc-transfer GenesisState instance.

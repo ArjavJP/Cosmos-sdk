@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // Validate performs a basic validation of the coin metadata fields. It checks:

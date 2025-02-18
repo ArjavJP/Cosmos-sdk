@@ -9,18 +9,18 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/input"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	authsigning "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
-	authtx "https://github.com/ArjavJP/Cosmos-sdk/x/auth/tx"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/input"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	authsigning "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	authtx "github.com/ArjavJP/Cosmos-sdk/x/auth/tx"
 )
 
 // GenerateOrBroadcastTxCLI will either generate and print and unsigned transaction
@@ -287,7 +287,7 @@ func CalculateGas(
 	}
 
 	// TODO This should use the generated tx service Client.
-	// https://https://github.com/ArjavJP/Cosmos-sdk/issues/7726
+	// https://github.com/ArjavJP/Cosmos-sdk/issues/7726
 	bz, _, err := queryFunc("/cosmos.tx.v1beta1.Service/Simulate", txBytes)
 	if err != nil {
 		return tx.SimulateResponse{}, 0, err

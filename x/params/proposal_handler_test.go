@@ -3,20 +3,20 @@ package params_test
 import (
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/store"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/store"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/params"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
 )
 
 func validateNoOp(_ interface{}) error { return nil }

@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
 )
 
 // GenConnectionGenesis returns the default connection genesis state.

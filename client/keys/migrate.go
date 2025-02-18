@@ -9,10 +9,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/input"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/input"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // migratePassphrase is used as a no-op migration key passphrase as a passphrase

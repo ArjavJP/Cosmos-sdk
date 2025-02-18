@@ -7,13 +7,13 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/capability/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	banktypes "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/capability/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/capability/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 type KeeperTestSuite struct {

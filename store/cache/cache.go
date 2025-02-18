@@ -3,8 +3,8 @@ package cache
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/cachekv"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/cachekv"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
 
 	lru "github.com/hashicorp/golang-lru"
 )
@@ -83,7 +83,7 @@ func (cmgr *CommitKVStoreCacheManager) Unwrap(key types.StoreKey) types.CommitKV
 func (cmgr *CommitKVStoreCacheManager) Reset() {
 	// Clear the map.
 	// Please note that we are purposefully using the map clearing idiom.
-	// See https://https://github.com/ArjavJP/Cosmos-sdk/issues/6681.
+	// See https://github.com/ArjavJP/Cosmos-sdk/issues/6681.
 	for key := range cmgr.caches {
 		delete(cmgr.caches, key)
 	}

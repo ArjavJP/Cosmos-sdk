@@ -2,7 +2,7 @@
 package v034
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 const (

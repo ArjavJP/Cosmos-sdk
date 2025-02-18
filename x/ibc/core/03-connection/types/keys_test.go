@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
 )
 
 // tests ParseConnectionSequence and IsValidConnectionID

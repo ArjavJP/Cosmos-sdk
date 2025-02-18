@@ -8,7 +8,7 @@ import (
 	"github.com/otiai10/copy"
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
 )
 
 func TestNewLegacyKeyBase(t *testing.T) {

@@ -6,13 +6,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/tx"
-	ibctransfertypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	connectionutils "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/client/utils"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/tx"
+	ibctransfertypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	connectionutils "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/client/utils"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // IBC Channel flags

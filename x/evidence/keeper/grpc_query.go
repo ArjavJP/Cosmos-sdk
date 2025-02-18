@@ -6,14 +6,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/prefix"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	"github.com/ArjavJP/Cosmos-sdk/store/prefix"
+	"github.com/ArjavJP/Cosmos-sdk/types/query"
 
 	proto "github.com/gogo/protobuf/proto"
 
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 )
 
 var _ types.QueryServer = Keeper{}

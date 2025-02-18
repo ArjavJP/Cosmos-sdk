@@ -5,11 +5,11 @@ package tx
 
 import (
 	fmt "fmt"
-	types "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	types1 "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	github_com_cosmos_cosmos_sdk_types "https://github.com/ArjavJP/Cosmos-sdk/types"
-	types2 "https://github.com/ArjavJP/Cosmos-sdk/types"
-	signing "https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	types "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	types1 "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/ArjavJP/Cosmos-sdk/types"
+	types2 "github.com/ArjavJP/Cosmos-sdk/types"
+	signing "github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -667,7 +667,7 @@ func (m *ModeInfo_Multi) GetModeInfos() []*ModeInfo {
 // which must be above some miminum to be accepted into the mempool.
 type Fee struct {
 	// amount is the amount of coins to be paid as a fee
-	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=https://github.com/ArjavJP/Cosmos-sdk/types.Coins" json:"amount"`
+	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/ArjavJP/Cosmos-sdk/types.Coins" json:"amount"`
 	// gas_limit is the maximum gas that can be used in transaction processing
 	// before an out of gas error occurs
 	GasLimit uint64 `protobuf:"varint,2,opt,name=gas_limit,json=gasLimit,proto3" json:"gas_limit,omitempty"`

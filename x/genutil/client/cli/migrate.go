@@ -10,22 +10,22 @@ import (
 	"github.com/spf13/cobra"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/version"
-	v036 "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v036"
-	v038 "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v038"
-	v039 "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v039"
-	v040 "https://github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v040"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/version"
+	v036 "github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v036"
+	v038 "github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v038"
+	v039 "github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v039"
+	v040 "github.com/ArjavJP/Cosmos-sdk/x/genutil/legacy/v040"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
 )
 
 const flagGenesisTime = "genesis-time"
 
 // Allow applications to extend and modify the migration process.
 //
-// Ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/5041
+// Ref: https://github.com/ArjavJP/Cosmos-sdk/issues/5041
 var migrationMap = types.MigrationMap{
 	"v0.36": v036.Migrate,
 	"v0.38": v038.Migrate, // NOTE: v0.37 and v0.38 are genesis compatible

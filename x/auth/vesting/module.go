@@ -8,14 +8,14 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/client/cli"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/client/cli"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/vesting/types"
 )
 
 var (

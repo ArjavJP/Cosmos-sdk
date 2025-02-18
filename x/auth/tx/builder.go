@@ -3,14 +3,14 @@ package tx
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
-	authsigning "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
+	authsigning "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

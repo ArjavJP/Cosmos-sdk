@@ -5,7 +5,7 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	tmmerkle "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 const (

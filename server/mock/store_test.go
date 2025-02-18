@@ -7,7 +7,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 func TestStore(t *testing.T) {

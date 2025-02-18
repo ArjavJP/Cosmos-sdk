@@ -8,11 +8,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	clientrest "https://github.com/ArjavJP/Cosmos-sdk/client/rest"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	clientrest "github.com/ArjavJP/Cosmos-sdk/client/rest"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 func registerQueryRoutes(clientCtx client.Context, r *mux.Router) {

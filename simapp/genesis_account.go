@@ -3,8 +3,8 @@ package simapp
 import (
 	"errors"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 var _ authtypes.GenesisAccount = (*SimGenesisAccount)(nil)

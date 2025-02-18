@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v034distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	v036gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
 )
 
 // ----------------------------------------------------------------------------

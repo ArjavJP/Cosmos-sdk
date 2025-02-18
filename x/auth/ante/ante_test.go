@@ -9,16 +9,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/ArjavJP/Cosmos-sdk/crypto/keys/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/ante"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 // Test that simulate transaction accurately estimates gas cost
@@ -896,7 +896,7 @@ func generatePubKeysAndSignatures(n int, msg []byte, _ bool) (pubkeys []cryptoty
 		privkey = secp256k1.GenPrivKey()
 
 		// TODO: also generate ed25519 keys as below when ed25519 keys are
-		//  actually supported, https://https://github.com/ArjavJP/Cosmos-sdk/issues/4789
+		//  actually supported, https://github.com/ArjavJP/Cosmos-sdk/issues/4789
 		// for now this fails:
 		//if rand.Int63()%2 == 0 {
 		//	privkey = ed25519.GenPrivKey()

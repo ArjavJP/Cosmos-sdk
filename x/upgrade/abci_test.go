@@ -15,17 +15,17 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	storetypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/module"
-	govtypes "https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/upgrade"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	storetypes "github.com/ArjavJP/Cosmos-sdk/store/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/module"
+	govtypes "github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	ibctmtypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/upgrade"
+	"github.com/ArjavJP/Cosmos-sdk/x/upgrade/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/upgrade/types"
 )
 
 type TestSuite struct {

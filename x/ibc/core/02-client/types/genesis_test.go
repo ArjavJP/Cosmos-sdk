@@ -5,15 +5,15 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	client "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	localhosttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
-	ibctesting "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
-	ibctestingmock "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/testing/mock"
+	client "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	localhosttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
+	ibctesting "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing"
+	ibctestingmock "github.com/ArjavJP/Cosmos-sdk/x/ibc/testing/mock"
 )
 
 const (

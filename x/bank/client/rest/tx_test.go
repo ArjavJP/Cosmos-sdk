@@ -5,16 +5,16 @@ package rest_test
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/network"
-	"https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
-	authclient "https://github.com/ArjavJP/Cosmos-sdk/x/auth/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
-	authtypes "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	bankrest "https://github.com/ArjavJP/Cosmos-sdk/x/bank/client/rest"
-	banktypes "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/network"
+	"github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
+	authclient "github.com/ArjavJP/Cosmos-sdk/x/auth/client"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/legacytx"
+	authtypes "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	bankrest "github.com/ArjavJP/Cosmos-sdk/x/bank/client/rest"
+	banktypes "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestCoinSend() {

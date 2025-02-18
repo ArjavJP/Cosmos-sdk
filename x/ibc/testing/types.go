@@ -1,7 +1,7 @@
 package ibctesting
 
 import (
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // TestConnection is a testing helper struct to keep track of the connectionID, source clientID,

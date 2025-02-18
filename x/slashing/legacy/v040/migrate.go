@@ -3,8 +3,8 @@ package v040
 import (
 	"sort"
 
-	v039slashing "https://github.com/ArjavJP/Cosmos-sdk/x/slashing/legacy/v039"
-	v040slashing "https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	v039slashing "github.com/ArjavJP/Cosmos-sdk/x/slashing/legacy/v039"
+	v040slashing "github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // Migrate accepts exported x/slashing genesis state from v0.39 and migrates it

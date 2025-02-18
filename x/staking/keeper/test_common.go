@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"math/rand"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // does a certain by-power index record exist

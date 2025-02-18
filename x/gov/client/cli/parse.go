@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	govutils "https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
+	govutils "github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
 )
 
 func parseSubmitProposalFlags(fs *pflag.FlagSet) (*proposal, error) {

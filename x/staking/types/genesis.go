@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
 )
 
 // NewGenesisState creates a new GenesisState instanc e

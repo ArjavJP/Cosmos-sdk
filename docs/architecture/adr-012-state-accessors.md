@@ -152,4 +152,4 @@ Proposed
 
 ## References
 
-- [#4554](https://https://github.com/ArjavJP/Cosmos-sdk/issues/4554)
+- [#4554](https://github.com/ArjavJP/Cosmos-sdk/issues/4554)

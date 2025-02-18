@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
 
 	"github.com/stretchr/testify/require"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
-	keep "https://github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	"github.com/ArjavJP/Cosmos-sdk/testutil/testdata"
+	keep "github.com/ArjavJP/Cosmos-sdk/x/auth/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 func TestQueryAccount(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/exported"
 )
 
 var _ exported.Header = &Header{}

@@ -38,7 +38,7 @@ software and restore to their latest snapshot before restarting their nodes.
 
 ## Upgrade procedure
 
-1. The procedure is to export the state from the old binary, and import it with the new binary. First, verify your old binary version (which should use `github.com/cosmos/cosmos-sdk@0.39.*`) before exporting the state.
+1. The procedure is to export the state from the old binary, and import it with the new binary. First, verify your old binary version (which should use `github.com/ArjavJP/Cosmos-sdk/@0.39.*`) before exporting the state.
 
    ```shell
    simd version --long
@@ -59,9 +59,9 @@ software and restore to their latest snapshot before restarting their nodes.
 
 1. Cross check the hash with other peers (other validators) in the chat rooms.
 
-1. Install the latest binary (which uses `github.com/cosmos/cosmos-sdk@0.40.*`).
+1. Install the latest binary (which uses `github.com/ArjavJP/Cosmos-sdk/@0.40.*`).
 
-1. Migrate the exported state to `github.com/cosmos/cosmos-sdk@0.40.*` compatible genesis state.
+1. Migrate the exported state to `github.com/ArjavJP/Cosmos-sdk/@0.40.*` compatible genesis state.
 
    ```shell
    simd migrate v0.42 v039_exported_state.json --chain-id <new_chain_id> --genesis-time <new_genesis_time_in_utc> > new_v042_genesis.json
@@ -111,7 +111,7 @@ software and restore to their latest snapshot before restarting their nodes.
    cp new_v042_genesis.json ~/.simd/config/genesis.json
    ```
 
-1) Update `~/.simd/config/app.toml` to include latest app configurations. [Here is the link](https://https://github.com/ArjavJP/Cosmos-sdk/blob/v0.42.0-rc6/server/config/toml.go#L11-L164) to the default template for v0.42's `app.toml`. Make sure to
+1) Update `~/.simd/config/app.toml` to include latest app configurations. [Here is the link](https://github.com/ArjavJP/Cosmos-sdk/blob/v0.42.0-rc6/server/config/toml.go#L11-L164) to the default template for v0.42's `app.toml`. Make sure to
    update your custom configurations as per your validator design, e.g. `gas_price`.
 
    Compared to v0.39, some notable updates to `app.toml` are:

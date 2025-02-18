@@ -1,9 +1,9 @@
 package v038
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
-	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v034distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
+	v036distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
 )
 
 // DONTCOVER

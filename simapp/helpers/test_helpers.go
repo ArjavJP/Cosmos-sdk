@@ -4,12 +4,12 @@ import (
 	"math/rand"
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
-	authsign "https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	authsign "github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
 )
 
 // SimAppChainID hardcoded chainID for simulation

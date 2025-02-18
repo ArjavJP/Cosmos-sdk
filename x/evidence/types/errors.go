@@ -2,7 +2,7 @@
 package types
 
 import (
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // x/evidence module sentinel errors

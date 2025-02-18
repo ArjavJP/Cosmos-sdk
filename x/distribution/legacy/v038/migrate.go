@@ -3,7 +3,7 @@ package v038
 // DONTCOVER
 
 import (
-	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	v036distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
 )
 
 // Migrate accepts exported genesis state from v0.36 or v0.37 and migrates it to

@@ -14,14 +14,14 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmrpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/config"
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	grpctypes "https://github.com/ArjavJP/Cosmos-sdk/types/grpc"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/rest"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/server/config"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	grpctypes "github.com/ArjavJP/Cosmos-sdk/types/grpc"
+	"github.com/ArjavJP/Cosmos-sdk/types/rest"
 
 	// unnamed import of statik for swagger UI support
-	_ "https://github.com/ArjavJP/Cosmos-sdk/client/docs/statik"
+	_ "github.com/ArjavJP/Cosmos-sdk/client/docs/statik"
 )
 
 // Server defines the server's API interface.

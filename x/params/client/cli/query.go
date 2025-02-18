@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
 )
 
 // NewQueryCmd returns a root CLI command handler for all x/params query commands.

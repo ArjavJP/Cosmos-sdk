@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v034auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v034"
-	v036auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
-	v036genaccounts "https://github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v034auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v034"
+	v036auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
+	v036genaccounts "github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
 
 	"github.com/stretchr/testify/require"
 )

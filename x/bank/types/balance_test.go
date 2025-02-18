@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	bank "github.com/ArjavJP/Cosmos-sdk/x/bank/types"
 )
 
 func TestBalanceValidate(t *testing.T) {

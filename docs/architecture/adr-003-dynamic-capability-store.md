@@ -341,4 +341,4 @@ Proposed.
 
 ## References
 
-- [Original discussion](https://https://github.com/ArjavJP/Cosmos-sdk/pull/5230#discussion_r343978513)
+- [Original discussion](https://github.com/ArjavJP/Cosmos-sdk/pull/5230#discussion_r343978513)

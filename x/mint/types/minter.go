@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // NewMinter returns a new Minter object with the given inflation and annual

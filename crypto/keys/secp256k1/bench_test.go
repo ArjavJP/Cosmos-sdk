@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/internal/benchmarking"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/internal/benchmarking"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/types"
 )
 
 func BenchmarkKeyGeneration(b *testing.B) {

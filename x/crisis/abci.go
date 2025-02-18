@@ -3,10 +3,10 @@ package crisis
 import (
 	"time"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/crisis/types"
 )
 
 // check all registered invariants

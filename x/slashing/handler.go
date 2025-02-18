@@ -1,10 +1,10 @@
 package slashing
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/slashing/types"
 )
 
 // NewHandler creates an sdk.Handler for all the slashing type messages

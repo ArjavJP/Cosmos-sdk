@@ -4,7 +4,7 @@ import (
 	ics23 "github.com/confio/ics23/go"
 	crypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // ConvertProofs converts crypto.ProofOps into MerkleProof

@@ -1,9 +1,9 @@
 package ante
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/signing"
+	"github.com/ArjavJP/Cosmos-sdk/x/auth/types"
 )
 
 // NewAnteHandler returns an AnteHandler that checks and increments sequence

@@ -1,7 +1,7 @@
 package localhost
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/light-clients/09-localhost/types"
 )
 
 // Name returns the IBC client name

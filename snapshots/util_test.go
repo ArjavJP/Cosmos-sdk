@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
+	"github.com/ArjavJP/Cosmos-sdk/snapshots"
 )
 
 func TestChunkWriter(t *testing.T) {

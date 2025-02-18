@@ -1,8 +1,8 @@
 package v038
 
 import (
-	v036auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
-	v036genaccounts "https://github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
+	v036auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
+	v036genaccounts "github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
 )
 
 // Migrate accepts exported genesis state from v0.34 and migrates it to v0.38

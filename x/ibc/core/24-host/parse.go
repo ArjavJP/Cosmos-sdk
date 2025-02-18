@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // ParseIdentifier parses the sequence from the identifier using the provided prefix. This function

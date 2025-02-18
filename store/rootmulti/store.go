@@ -17,16 +17,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/snapshots"
-	snapshottypes "https://github.com/ArjavJP/Cosmos-sdk/snapshots/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/cachemulti"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/dbadapter"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/iavl"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/mem"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/tracekv"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/transient"
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/snapshots"
+	snapshottypes "github.com/ArjavJP/Cosmos-sdk/snapshots/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/cachemulti"
+	"github.com/ArjavJP/Cosmos-sdk/store/dbadapter"
+	"github.com/ArjavJP/Cosmos-sdk/store/iavl"
+	"github.com/ArjavJP/Cosmos-sdk/store/mem"
+	"github.com/ArjavJP/Cosmos-sdk/store/tracekv"
+	"github.com/ArjavJP/Cosmos-sdk/store/transient"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 const (

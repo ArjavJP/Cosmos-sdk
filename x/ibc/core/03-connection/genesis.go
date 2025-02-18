@@ -1,9 +1,9 @@
 package connection
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
 )
 
 // InitGenesis initializes the ibc connection submodule's state from a provided genesis

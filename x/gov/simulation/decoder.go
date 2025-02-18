@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 // UnmarshalDenomTrace attempts to decode and return an DenomTrace object from

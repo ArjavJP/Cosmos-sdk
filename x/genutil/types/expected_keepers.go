@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	bankexported "https://github.com/ArjavJP/Cosmos-sdk/x/bank/exported"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	auth "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	bankexported "github.com/ArjavJP/Cosmos-sdk/x/bank/exported"
 )
 
 // StakingKeeper defines the expected staking keeper (noalias)

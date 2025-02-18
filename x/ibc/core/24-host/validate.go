@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // DefaultMaxCharacterLength defines the default maximum character length used

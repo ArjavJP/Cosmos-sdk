@@ -3,9 +3,9 @@ package gov
 import (
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/types"
 )
 
 // InitGenesis - store genesis parameters

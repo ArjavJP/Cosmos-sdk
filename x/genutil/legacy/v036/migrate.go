@@ -1,22 +1,22 @@
 package v036
 
 import (
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
-	v034auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v034"
-	v036auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
-	v036bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
-	v034distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
-	v036distr "https://github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
-	v034genAccounts "https://github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v034"
-	v036genAccounts "https://github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
-	v034gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
-	v036gov "https://github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
-	v036params "https://github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
-	v034staking "https://github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v034"
-	v036staking "https://github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v036"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	cryptocodec "github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	v034auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v034"
+	v036auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v036"
+	v036bank "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
+	v034distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v034"
+	v036distr "github.com/ArjavJP/Cosmos-sdk/x/distribution/legacy/v036"
+	v034genAccounts "github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v034"
+	v036genAccounts "github.com/ArjavJP/Cosmos-sdk/x/genaccounts/legacy/v036"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil/types"
+	v034gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v034"
+	v036gov "github.com/ArjavJP/Cosmos-sdk/x/gov/legacy/v036"
+	v036params "github.com/ArjavJP/Cosmos-sdk/x/params/legacy/v036"
+	v034staking "github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v034"
+	v036staking "github.com/ArjavJP/Cosmos-sdk/x/staking/legacy/v036"
 )
 
 // Migrate migrates exported state from v0.34 to a v0.36 genesis state.

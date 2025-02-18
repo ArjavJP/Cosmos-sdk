@@ -11,9 +11,9 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/api"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/config"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/server/api"
+	"github.com/ArjavJP/Cosmos-sdk/server/config"
 )
 
 type (

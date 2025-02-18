@@ -3,10 +3,10 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/types"
-	paramtypes "https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	auth "github.com/ArjavJP/Cosmos-sdk/x/auth/types"
+	paramtypes "github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // AccountKeeper expected account keeper

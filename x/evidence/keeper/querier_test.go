@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"strings"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/exported"
+	"github.com/ArjavJP/Cosmos-sdk/x/evidence/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

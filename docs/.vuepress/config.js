@@ -80,7 +80,7 @@ module.exports = {
             },
             {
               title: "SDK API Reference",
-              path: "https://godoc.org/github.com/cosmos/cosmos-sdk"
+              path: "https://godoc.org/github.com/ArjavJP/Cosmos-sdk/"
             },
             {
               title: "REST API Spec",
@@ -189,11 +189,11 @@ module.exports = {
             {
               title: "Contributing to the docs",
               url:
-                "https://https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/DOCS_README.md"
+                "https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/DOCS_README.md"
             },
             {
               title: "Source code on GitHub",
-              url: "https://https://github.com/ArjavJP/Cosmos-sdk/"
+              url: "https://github.com/ArjavJP/Cosmos-sdk/"
             }
           ]
         }

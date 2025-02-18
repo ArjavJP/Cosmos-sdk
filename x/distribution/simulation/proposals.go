@@ -3,12 +3,12 @@ package simulation
 import (
 	"math/rand"
 
-	simappparams "https://github.com/ArjavJP/Cosmos-sdk/simapp/params"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/keeper"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
+	simappparams "github.com/ArjavJP/Cosmos-sdk/simapp/params"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitCommunitySpendProposal app params key for community spend proposal

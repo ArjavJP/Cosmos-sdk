@@ -3,7 +3,7 @@ package types
 import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 
-	query "https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	query "github.com/ArjavJP/Cosmos-sdk/types/query"
 )
 
 // Querier routes for the evidence module

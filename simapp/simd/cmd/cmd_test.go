@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	svrcmd "https://github.com/ArjavJP/Cosmos-sdk/server/cmd"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp/simd/cmd"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/genutil/client/cli"
+	svrcmd "github.com/ArjavJP/Cosmos-sdk/server/cmd"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	"github.com/ArjavJP/Cosmos-sdk/simapp/simd/cmd"
+	"github.com/ArjavJP/Cosmos-sdk/x/genutil/client/cli"
 )
 
 func TestInitCmd(t *testing.T) {

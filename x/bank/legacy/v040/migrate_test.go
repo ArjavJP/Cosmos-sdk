@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/simapp"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	v038auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v038"
-	v039auth "https://github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v039"
-	v036supply "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
-	v038bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v038"
-	v040bank "https://github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v040"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/simapp"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	v038auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v038"
+	v039auth "github.com/ArjavJP/Cosmos-sdk/x/auth/legacy/v039"
+	v036supply "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v036"
+	v038bank "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v038"
+	v040bank "github.com/ArjavJP/Cosmos-sdk/x/bank/legacy/v040"
 )
 
 func TestMigrate(t *testing.T) {

@@ -22,7 +22,7 @@ parent:
 
 - **[模块目录](../../x/)**：模块的实现和文档
 - **[规范](./spec/):** Cosmos SDK 的模块及其他规范。
-- **[SDK API 参考](https://godoc.org/github.com/cosmos/cosmos-sdk):** Cosmos SDK Godocs 文档 。
+- **[SDK API 参考](https://godoc.org/github.com/ArjavJP/Cosmos-sdk/):** Cosmos SDK Godocs 文档 。
 - **[REST API 规范](https://cosmos.network/rpc/):** 通过 REST 与 `gaia` 全节点交互的 API 列表。
 
 ## Cosmos Hub
@@ -35,4 +35,4 @@ Cosmos-SDK 目前是用 [Golang](https://golang.org/)编写的, 尽管该框架�
 
 ## 贡献
 
-参考 [文档说明](https://https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/DOCS_README.md) 了解构建细节及更新时注意事项。
+参考 [文档说明](https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/DOCS_README.md) 了解构建细节及更新时注意事项。

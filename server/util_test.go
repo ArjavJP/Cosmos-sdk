@@ -12,7 +12,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
 )
 
 var CancelledInPreRun = errors.New("Canelled in prerun")
@@ -379,7 +379,7 @@ func TestInterceptConfigsPreRunHandlerPrecedenceConfigDefault(t *testing.T) {
 
 // Ensure that if interceptConfigs encounters any error other than non-existen errors
 // that we correctly return the offending error, for example a permission error.
-// See https://https://github.com/ArjavJP/Cosmos-sdk/issues/7578
+// See https://github.com/ArjavJP/Cosmos-sdk/issues/7578
 func TestInterceptConfigsWithBadPermissions(t *testing.T) {
 	tempDir := t.TempDir()
 	subDir := filepath.Join(tempDir, "nonPerms")

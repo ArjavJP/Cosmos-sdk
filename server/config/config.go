@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	storetypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	storetypes "github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 const (
@@ -95,7 +95,7 @@ type APIConfig struct {
 
 	// TODO: TLS/Proxy configuration.
 	//
-	// Ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/6420
+	// Ref: https://github.com/ArjavJP/Cosmos-sdk/issues/6420
 }
 
 // GRPCConfig defines configuration for the gRPC server.

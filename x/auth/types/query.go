@@ -1,6 +1,6 @@
 package types
 
-import codectypes "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
+import codectypes "github.com/ArjavJP/Cosmos-sdk/codec/types"
 
 func (m *QueryAccountResponse) UnpackInterfaces(unpacker codectypes.AnyUnpacker) error {
 	var account AccountI

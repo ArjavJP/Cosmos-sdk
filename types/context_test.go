@@ -12,10 +12,10 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
-	"https://github.com/ArjavJP/Cosmos-sdk/store"
-	"https://github.com/ArjavJP/Cosmos-sdk/tests/mocks"
-	"https://github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/ArjavJP/Cosmos-sdk/store"
+	"github.com/ArjavJP/Cosmos-sdk/tests/mocks"
+	"github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 type contextTestSuite struct {

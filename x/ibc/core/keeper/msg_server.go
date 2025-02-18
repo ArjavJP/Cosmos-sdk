@@ -5,15 +5,15 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	clienttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
-	connectiontypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
-	channel "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel"
-	channeltypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
-	porttypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
-	coretypes "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	clienttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/types"
+	connectiontypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/types"
+	channel "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel"
+	channeltypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/types"
+	porttypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/05-port/types"
+	coretypes "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/types"
 )
 
 var _ clienttypes.MsgServer = Keeper{}

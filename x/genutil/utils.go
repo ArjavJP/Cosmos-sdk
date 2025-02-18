@@ -14,8 +14,8 @@ import (
 	"github.com/tendermint/tendermint/privval"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	cryptocodec "https://github.com/ArjavJP/Cosmos-sdk/crypto/codec"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	cryptocodec "github.com/ArjavJP/Cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
 )
 
 // ExportGenesisFile creates and writes the genesis configuration to disk. An

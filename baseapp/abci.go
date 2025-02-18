@@ -16,11 +16,11 @@ import (
 	"google.golang.org/grpc/codes"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	snapshottypes "https://github.com/ArjavJP/Cosmos-sdk/snapshots/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/telemetry"
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	snapshottypes "github.com/ArjavJP/Cosmos-sdk/snapshots/types"
+	"github.com/ArjavJP/Cosmos-sdk/telemetry"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // InitChain implements the ABCI interface. It runs the initialization logic
@@ -400,7 +400,7 @@ func (app *BaseApp) Query(req abci.RequestQuery) (res abci.ResponseQuery) {
 	defer telemetry.MeasureSince(time.Now(), "abci", "query")
 
 	// Add panic recovery for all queries.
-	// ref: https://https://github.com/ArjavJP/Cosmos-sdk/pull/8039
+	// ref: https://github.com/ArjavJP/Cosmos-sdk/pull/8039
 	defer func() {
 		if r := recover(); r != nil {
 			res = sdkerrors.QueryResult(sdkerrors.Wrapf(sdkerrors.ErrPanic, "%v", r))

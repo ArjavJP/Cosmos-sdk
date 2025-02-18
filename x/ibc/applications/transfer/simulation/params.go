@@ -5,10 +5,10 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/simulation"
 
-	simtypes "https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
+	simtypes "github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 // ParamChanges defines the parameters that can be modified by param change proposals

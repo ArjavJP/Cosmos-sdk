@@ -3,7 +3,7 @@ package types
 import (
 	"github.com/gogo/protobuf/proto"
 
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 type Any struct {

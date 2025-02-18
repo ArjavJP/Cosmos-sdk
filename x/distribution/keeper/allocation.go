@@ -5,9 +5,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
-	stakingtypes "https://github.com/ArjavJP/Cosmos-sdk/x/staking/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/ArjavJP/Cosmos-sdk/x/staking/types"
 )
 
 // AllocateTokens handles distribution of the collected fees
@@ -32,7 +32,7 @@ func (k Keeper) AllocateTokens(
 	}
 
 	// temporary workaround to keep CanWithdrawInvariant happy
-	// general discussions here: https://https://github.com/ArjavJP/Cosmos-sdk/issues/2906#issuecomment-441867634
+	// general discussions here: https://github.com/ArjavJP/Cosmos-sdk/issues/2906#issuecomment-441867634
 	feePool := k.GetFeePool(ctx)
 	if totalPreviousPower == 0 {
 		feePool.CommunityPool = feePool.CommunityPool.Add(feesCollected...)
@@ -82,12 +82,12 @@ func (k Keeper) AllocateTokens(
 	voteMultiplier := sdk.OneDec().Sub(proposerMultiplier).Sub(communityTax)
 
 	// allocate tokens proportionally to voting power
-	// TODO consider parallelizing later, ref https://https://github.com/ArjavJP/Cosmos-sdk/pull/3099#discussion_r246276376
+	// TODO consider parallelizing later, ref https://github.com/ArjavJP/Cosmos-sdk/pull/3099#discussion_r246276376
 	for _, vote := range previousVotes {
 		validator := k.stakingKeeper.ValidatorByConsAddr(ctx, vote.Validator.Address)
 
 		// TODO consider microslashing for missing votes.
-		// ref https://https://github.com/ArjavJP/Cosmos-sdk/issues/2525#issuecomment-430838701
+		// ref https://github.com/ArjavJP/Cosmos-sdk/issues/2525#issuecomment-430838701
 		powerFraction := sdk.NewDec(vote.Validator.Power).QuoTruncate(sdk.NewDec(totalPreviousPower))
 		reward := feesCollected.MulDecTruncate(voteMultiplier).MulDecTruncate(powerFraction)
 		k.AllocateTokensToValidator(ctx, validator, reward)

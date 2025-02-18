@@ -17,34 +17,34 @@ in for Tendermint and other lower-level libraries (eg. [IAVL](https://github.com
 
 ### Core packages
 
-- [`/baseapp`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/baseapp)
-- [`/crypto`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/crypto)
-- [`/types`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/types)
-- [`/store`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/store)
+- [`/baseapp`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/baseapp)
+- [`/crypto`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/crypto)
+- [`/types`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/types)
+- [`/store`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/store)
 
 ### Modules
 
-- [`x/auth`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/auth)
-- [`x/bank`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/bank)
-- [`x/capability`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/capability)
-- [`x/staking`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/staking)
-- [`x/slashing`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/slashing)
-- [`x/evidence`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/evidence)
-- [`x/distribution`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/distribution)
-- [`x/ibc`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/ibc)
-- [`x/ibc-transfer`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/ibc-transfer)
-- [`x/mint`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/mint)
+- [`x/auth`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/auth)
+- [`x/bank`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/bank)
+- [`x/capability`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/capability)
+- [`x/staking`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/staking)
+- [`x/slashing`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/slashing)
+- [`x/evidence`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/evidence)
+- [`x/distribution`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/distribution)
+- [`x/ibc`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/ibc)
+- [`x/ibc-transfer`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/ibc-transfer)
+- [`x/mint`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/mint)
 
 We are interested in bugs in other modules, however the above are most likely to
 have significant vulnerabilities, due to the complexity / nuance involved. We
-also recommend you to read the [specification](https://https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/building-modules/README.md) of each module before digging into
+also recommend you to read the [specification](https://github.com/ArjavJP/Cosmos-sdk/blob/master/docs/building-modules/README.md) of each module before digging into
 the code.
 
 ### How we process Tx parameters
 
 - Integer operations on tx parameters, especially `sdk.Int` / `sdk.Dec`
 - Gas calculation & parameter choices
-- Tx signature verification (see [`x/auth/ante`](https://https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/auth/ante))
+- Tx signature verification (see [`x/auth/ante`](https://github.com/ArjavJP/Cosmos-sdk/tree/master/x/auth/ante))
 - Possible Node DoS vectors (perhaps due to gas weighting / non constant timing)
 
 ### Handling private keys

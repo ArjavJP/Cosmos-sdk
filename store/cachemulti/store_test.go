@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
 	"github.com/stretchr/testify/require"
 )
 

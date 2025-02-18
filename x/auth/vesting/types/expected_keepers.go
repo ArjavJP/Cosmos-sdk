@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
 )
 
 // BankKeeper defines the expected interface contract the vesting module requires

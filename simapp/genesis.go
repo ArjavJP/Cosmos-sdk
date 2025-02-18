@@ -3,7 +3,7 @@ package simapp
 import (
 	"encoding/json"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
 )
 
 // The genesis state of the blockchain is represented here as a map of raw json

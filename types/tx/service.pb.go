@@ -6,8 +6,8 @@ package tx
 import (
 	context "context"
 	fmt "fmt"
-	types "https://github.com/ArjavJP/Cosmos-sdk/types"
-	query "https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	types "github.com/ArjavJP/Cosmos-sdk/types"
+	query "github.com/ArjavJP/Cosmos-sdk/types/query"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"

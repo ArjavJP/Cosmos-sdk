@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
+	"github.com/ArjavJP/Cosmos-sdk/x/gov/client/utils"
 )
 
 func TestNormalizeProposalStatus(t *testing.T) {

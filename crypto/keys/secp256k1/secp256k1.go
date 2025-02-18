@@ -12,9 +12,9 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"golang.org/x/crypto/ripemd160" // nolint: staticcheck // necessary for Bitcoin address format
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/codec"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 var _ cryptotypes.PrivKey = &PrivKey{}

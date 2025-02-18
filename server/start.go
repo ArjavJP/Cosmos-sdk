@@ -19,13 +19,13 @@ import (
 	"github.com/tendermint/tendermint/rpc/client/local"
 	"google.golang.org/grpc"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/api"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/config"
-	servergrpc "https://github.com/ArjavJP/Cosmos-sdk/server/grpc"
-	"https://github.com/ArjavJP/Cosmos-sdk/server/types"
-	storetypes "https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/server/api"
+	"github.com/ArjavJP/Cosmos-sdk/server/config"
+	servergrpc "github.com/ArjavJP/Cosmos-sdk/server/grpc"
+	"github.com/ArjavJP/Cosmos-sdk/server/types"
+	storetypes "github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 // Tendermint full-node start flags

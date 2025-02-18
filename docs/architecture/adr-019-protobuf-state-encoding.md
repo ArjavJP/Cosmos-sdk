@@ -117,7 +117,7 @@ type Codec interface {
 
 In general, module-level .proto files should define messages which encode interfaces
 using [`google.protobuf.Any`](https://github.com/protocolbuffers/protobuf/blob/master/src/google/protobuf/any.proto).
-After [extension discussion](https://https://github.com/ArjavJP/Cosmos-sdk/issues/6030),
+After [extension discussion](https://github.com/ArjavJP/Cosmos-sdk/issues/6030),
 this was chosen as the preferred alternative to application-level `oneof`s
 as in our original protobuf design. The arguments in favor of `Any` can be
 summarized as follows:
@@ -225,7 +225,7 @@ every module that implements it in order to populate the `InterfaceRegistry`.
 The SDK will provide support methods `MarshalInterface` and `UnmarshalInterface` to hide a complexity of wrapping interface types into `Any` and allow easy serialization.
 
 ```go
-import "https://github.com/ArjavJP/Cosmos-sdk/codec"
+import "github.com/ArjavJP/Cosmos-sdk/codec"
 
 // note: eviexported.Evidence is an interface type
 func MarshalEvidence(cdc codec.BinaryMarshaler, e eviexported.Evidence) ([]byte, error) {
@@ -251,7 +251,7 @@ an interface:
 message MsgSubmitEvidence {
   bytes submitter = 1
     [
-      (gogoproto.casttype) = "https://github.com/ArjavJP/Cosmos-sdk/types.AccAddress"
+      (gogoproto.casttype) = "github.com/ArjavJP/Cosmos-sdk/types.AccAddress"
     ];
   google.protobuf.Any evidence = 2;
 }
@@ -371,5 +371,5 @@ seamless.
 
 ## References
 
-1. https://https://github.com/ArjavJP/Cosmos-sdk/issues/4977
-2. https://https://github.com/ArjavJP/Cosmos-sdk/issues/5444
+1. https://github.com/ArjavJP/Cosmos-sdk/issues/4977
+2. https://github.com/ArjavJP/Cosmos-sdk/issues/5444

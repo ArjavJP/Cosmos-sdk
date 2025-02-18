@@ -5,10 +5,10 @@ import (
 
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	multisigtypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
+	"github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	multisigtypes "github.com/ArjavJP/Cosmos-sdk/crypto/types/multisig"
+	"github.com/ArjavJP/Cosmos-sdk/types/tx/signing"
 )
 
 var _ multisigtypes.PubKey = &LegacyAminoPubKey{}
@@ -91,7 +91,7 @@ func (m *LegacyAminoPubKey) VerifyMultisignature(getSignBytes multisigtypes.GetS
 
 // VerifySignature implements cryptotypes.PubKey VerifySignature method,
 // it panics because it can't handle MultiSignatureData
-// cf. https://https://github.com/ArjavJP/Cosmos-sdk/issues/7109#issuecomment-686329936
+// cf. https://github.com/ArjavJP/Cosmos-sdk/issues/7109#issuecomment-686329936
 func (m *LegacyAminoPubKey) VerifySignature(msg []byte, sig []byte) bool {
 	panic("not implemented")
 }

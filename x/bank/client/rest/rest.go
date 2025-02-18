@@ -3,9 +3,9 @@ package rest
 import (
 	"github.com/gorilla/mux"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/rest"
+	"github.com/ArjavJP/Cosmos-sdk/client/rest"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client"
 )
 
 // RegisterHandlers registers all x/bank transaction and query HTTP REST handlers

@@ -143,7 +143,7 @@ func (s *abciTestSuite) TestABCIInfoStacktrace() {
 		},
 	}
 
-	const thisTestSrc = "https://github.com/ArjavJP/Cosmos-sdk/types/errors.(*abciTestSuite).TestABCIInfoStacktrace"
+	const thisTestSrc = "github.com/ArjavJP/Cosmos-sdk/types/errors.(*abciTestSuite).TestABCIInfoStacktrace"
 
 	for testName, tc := range cases {
 		_, _, log := ABCIInfo(tc.err, tc.debug)

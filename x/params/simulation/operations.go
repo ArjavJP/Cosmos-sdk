@@ -3,9 +3,9 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/simulation"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	"github.com/ArjavJP/Cosmos-sdk/types/simulation"
+	"github.com/ArjavJP/Cosmos-sdk/x/params/types/proposal"
 )
 
 // SimulateParamChangeProposalContent returns random parameter change content.

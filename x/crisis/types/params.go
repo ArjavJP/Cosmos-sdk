@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	sdk "https://github.com/ArjavJP/Cosmos-sdk/types"
-	paramtypes "https://github.com/ArjavJP/Cosmos-sdk/x/params/types"
+	sdk "github.com/ArjavJP/Cosmos-sdk/types"
+	paramtypes "github.com/ArjavJP/Cosmos-sdk/x/params/types"
 )
 
 var (

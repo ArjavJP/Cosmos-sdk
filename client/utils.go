@@ -4,9 +4,9 @@ import (
 	"github.com/spf13/pflag"
 	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
-	"https://github.com/ArjavJP/Cosmos-sdk/types/query"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
+	"github.com/ArjavJP/Cosmos-sdk/types/query"
 )
 
 // Paginate returns the correct starting and ending index for a paginated query,
@@ -72,7 +72,7 @@ func ReadPageRequest(flagSet *pflag.FlagSet) (*query.PageRequest, error) {
 // NewClientFromNode sets up Client implementation that communicates with a Tendermint node over
 // JSON RPC and WebSockets
 // TODO: We might not need to manually append `/websocket`:
-// https://https://github.com/ArjavJP/Cosmos-sdk/issues/8986
+// https://github.com/ArjavJP/Cosmos-sdk/issues/8986
 func NewClientFromNode(nodeURI string) (*rpchttp.HTTP, error) {
 	return rpchttp.New(nodeURI, "/websocket")
 }

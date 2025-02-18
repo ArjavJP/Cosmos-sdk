@@ -3,7 +3,7 @@ package query
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/store/types"
+	"github.com/ArjavJP/Cosmos-sdk/store/types"
 )
 
 // FilteredPaginate does pagination of all the results in the PrefixStore based on the

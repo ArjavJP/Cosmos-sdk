@@ -1,7 +1,7 @@
 syntax = "proto3";
 package cosmos.capability.v1beta1;
 
-option go_package = "https://github.com/ArjavJP/Cosmos-sdk/x/capability/types";
+option go_package = "github.com/ArjavJP/Cosmos-sdk/x/capability/types";
 
 import "gogoproto/gogo.proto";
 

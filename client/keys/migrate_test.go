@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"testing"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client"
+	"github.com/ArjavJP/Cosmos-sdk/client"
 
 	"github.com/stretchr/testify/require"
 
 	"github.com/otiai10/copy"
 	"github.com/stretchr/testify/assert"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/client/flags"
-	"https://github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
-	"https://github.com/ArjavJP/Cosmos-sdk/testutil"
+	"github.com/ArjavJP/Cosmos-sdk/client/flags"
+	"github.com/ArjavJP/Cosmos-sdk/crypto/keyring"
+	"github.com/ArjavJP/Cosmos-sdk/testutil"
 )
 
 func Test_runMigrateCmd(t *testing.T) {

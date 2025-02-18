@@ -3,12 +3,12 @@ package simulation
 import (
 	"fmt"
 
-	"https://github.com/ArjavJP/Cosmos-sdk/types/kv"
-	clientsim "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/simulation"
-	connectionsim "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/simulation"
-	channelsim "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/simulation"
-	host "https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
-	"https://github.com/ArjavJP/Cosmos-sdk/x/ibc/core/keeper"
+	"github.com/ArjavJP/Cosmos-sdk/types/kv"
+	clientsim "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/02-client/simulation"
+	connectionsim "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/03-connection/simulation"
+	channelsim "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/04-channel/simulation"
+	host "github.com/ArjavJP/Cosmos-sdk/x/ibc/core/24-host"
+	"github.com/ArjavJP/Cosmos-sdk/x/ibc/core/keeper"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

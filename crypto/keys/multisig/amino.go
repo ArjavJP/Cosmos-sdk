@@ -1,9 +1,9 @@
 package multisig
 
 import (
-	types "https://github.com/ArjavJP/Cosmos-sdk/codec/types"
-	cryptotypes "https://github.com/ArjavJP/Cosmos-sdk/crypto/types"
-	sdkerrors "https://github.com/ArjavJP/Cosmos-sdk/types/errors"
+	types "github.com/ArjavJP/Cosmos-sdk/codec/types"
+	cryptotypes "github.com/ArjavJP/Cosmos-sdk/crypto/types"
+	sdkerrors "github.com/ArjavJP/Cosmos-sdk/types/errors"
 )
 
 // tmMultisig implements a K of N threshold multisig. It is used for
@@ -23,7 +23,7 @@ import (
 // Amino binary marshaling, as that _might_ introduce breaking changes in the
 // keyring, where multisigs are amino-binary-encoded.
 //
-// ref: https://https://github.com/ArjavJP/Cosmos-sdk/issues/8776
+// ref: https://github.com/ArjavJP/Cosmos-sdk/issues/8776
 type tmMultisig struct {
 	K       uint                 `json:"threshold"`
 	PubKeys []cryptotypes.PubKey `json:"pubkeys"`
